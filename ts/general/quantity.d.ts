@@ -9,9 +9,9 @@ export interface QuantitytWithUnit {
    */
   unit: string;
   /** The lower value of some characteristic or property.*/
-  minValue: number;
+  minValue?: number;
   /** The upper value of some characteristic or property.*/
-  maxValue: number;
+  maxValue?: number;
 }
 
 /** Positive number with unit */
@@ -22,3 +22,8 @@ export interface PositiveQuantitytWithUnit extends QuantitytWithUnit {
    */
   value: number;
 }
+
+/**Positive number
+ * @minimum 0
+ */
+export interface PositiveNumber extends Number {}

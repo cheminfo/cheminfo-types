@@ -1,6 +1,15 @@
 {
+  "scripts": {
+    "generate": "yarn ts-node json/buildJSON.ts"
+  },
   "dependencies": {
-    "schema-dts": "^0.8.2",
+    "js-yaml": "^4.0.0",
     "typescript-json-schema": "^0.50.0"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "eslint": "^7.22.0",
+    "eslint-config-cheminfo-typescript": "^8.0.8",
+    "prettier": "^2.2.1"
   }
 }

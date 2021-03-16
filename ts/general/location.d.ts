@@ -7,11 +7,11 @@ export interface Location {
   /** Name or code of the building
    * @TJS-examples ["I17", "Main building"]
    */
-  building: string;
+  building?: string;
   /**Name or code of the room in which the object is localized
    * @TJS-examples ["1 B3", "Lab 1"]
    */
-  room: string;
+  room?: string;
   /** Internal code that is used to identify the location
    * @TJS-examples ["I17 1 B3"]
    */

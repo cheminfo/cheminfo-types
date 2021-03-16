@@ -14,14 +14,14 @@ export interface Instrument {
   /** The INTERNAL serial number of the instrument, e.g., the inventory number of the instrument in a university
    * @TJS-examples ["B105863"]
    */
-  serialNumber: string;
+  serialNumber?: string;
   /** Stock Keeping Unit (SKU), i.e. a merchant-specific identifier for a product or service, or the product to which the offer refers.
    * @TJS-examples ["345"]
    */
-  sku: string;
+  sku?: string;
   /** The name of the software and the version number
    * @TJS-examples ["BELMaster™ 7"]
    */
-  software: string;
-  location: Location;
+  software?: string;
+  location?: Location;
 }
