@@ -1,0 +1,39 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "description": "Describes the location of some object.",
+    "properties": {
+        "building": {
+            "description": "Name or code of the building",
+            "examples": [
+                "I17",
+                "Main building"
+            ],
+            "type": "string"
+        },
+        "code": {
+            "description": "Internal code that is used to identify the location",
+            "examples": [
+                "I17 1 B3"
+            ],
+            "type": "string"
+        },
+        "entity": {
+            "description": "Name of the institution",
+            "examples": [
+                "EPFL",
+                "Heriot-Watt University"
+            ],
+            "type": "string"
+        },
+        "room": {
+            "description": "Name or code of the room in which the object is localized",
+            "examples": [
+                "1 B3",
+                "Lab 1"
+            ],
+            "type": "string"
+        }
+    },
+    "type": "object"
+}
+
