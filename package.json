@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "schema-dts": "^0.8.2",
+    "typescript-json-schema": "^0.50.0"
+  }
+}
