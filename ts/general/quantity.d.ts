@@ -24,6 +24,15 @@ export interface PositiveQuantitytWithUnit extends QuantitytWithUnit {
   value: number;
 }
 
+/** Negative number with unit */
+export interface NegativeQuantityWithUnit extends QuantitytWithUnit {
+  /** The value of the quantitative value or property value node.
+   * @TJS-examples [-1, -1.4]
+   * @maximum 0
+   */
+  value: number;
+}
+
 /**Positive number
  * @minimum 0
  */

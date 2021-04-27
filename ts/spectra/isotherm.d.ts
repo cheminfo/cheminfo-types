@@ -30,7 +30,7 @@ export interface DerivedIsothermProperties {
 }
 
 /** Defines the required columns in an isotherm JCAMP file */
-export interface IsothermJCAMP extends JCAMP {
+export interface IsothermJcamp extends JCAMP {
   /**
    *@default require('./__examples__/isotherm.example').IsothermDefaultColumns
    */
@@ -54,7 +54,7 @@ export interface Isotherm extends MeasurementResult {
   /** Measurement principle with which the gas adsorption/desorption isotherm was measured. */
   method: "gravimetric" | "volumetric";
   /** Data attached as JCAMP file */
-  jcamp: IsothermJCAMP;
+  jcamp: IsothermJcamp;
   /** Mass of sample used in the measurement
    * IUPAC: M03709
    * @TJS-examples [{value: 10, unit: 'g'}]
