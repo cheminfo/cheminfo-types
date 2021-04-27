@@ -7,7 +7,8 @@ export interface QuantitytWithUnit {
   /** The unit of the value
    * @TJS-examples ["g/mL", "Pa", "m^3"]
    */
-  unit: string;
+  siValue: number; 
+  unit: string; // ToDo: deal with quantity without unit like pH
   /** The lower value of some characteristic or property.*/
   minValue?: number;
   /** The upper value of some characteristic or property.*/

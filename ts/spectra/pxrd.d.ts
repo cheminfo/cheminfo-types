@@ -19,7 +19,7 @@ export interface PXRD extends MeasurementResult {
    * IUPAC: T06261
    * @TS-examples: [{value: 100, unit: 'K}]
    */
-  temperature?: PositiveQuantitytWithUnit;
+  temperature?: PositiveQuantitytWithUnit; // ToDo: does not work for C
   cif?: Attachment;
   method?: string;
   /**Type of the sample holder

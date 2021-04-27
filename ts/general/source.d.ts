@@ -2,7 +2,7 @@
  * Metadata describing the data source
  */
 export interface DataSource {
-  type: "experiment" | "simulation" | "literature";
+  type: "experiment" | "simulation" | "literature"; // ToDo: "prediction/calculation" type for easy calculations like cLogP/h-bond donor acceptor
   /**Name of the resource
    * @TJS-examples ['AiiDAlab']
    */
