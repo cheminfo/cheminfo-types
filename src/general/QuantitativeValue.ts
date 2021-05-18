@@ -1,9 +1,12 @@
+export type QuantitativeValue =
+  | QuantitativeValueWCode
+  | QuantitativeValueWText
+  | (QuantitativeValueWCode & QuantitativeValueWText);
 
-/** Value with units as https://schema.org/QuantitativeValue */
-export interface QuantitativeValue {
+interface BaseQuantitativeValue {
   /** The value of the quantitative value or property value node.
    * @TJS-examples [0, 1000, 1345.24456, -10, -100]
-  */
+   */
   value: number;
   /** The lower value of some uncertainty distribution of a characteristic or property.*/
   minValue?: number;
@@ -11,9 +14,15 @@ export interface QuantitativeValue {
   maxValue?: number;
   /** The standard of some uncertainty distribution of a characteristic or property.*/
   standardDeviation?: number;
+}
+
+/** Value with units as https://schema.org/QuantitativeValue */
+interface QuantitativeValueWCode extends BaseQuantitativeValue {
   /**A string or text indicating the unit of measurement. Useful if you cannot provide a standard unit code for unitCode. */
   unitText?: string; // ToDo I would like to enforce that we either need unitText or unitCode and set it explicelty to no unit (e.g., empty string) if there is no unit
+}
+
+interface QuantitativeValueWText extends BaseQuantitativeValue {
   /**The unit of measurement given using the UN/CEFACT Common Code (3 characters) or a URL. Other codes than the UN/CEFACT Common Code may be used with a prefix followed by a colon. */
   unitCode?: string;
 }
-
