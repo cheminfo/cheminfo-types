@@ -1,9 +1,10 @@
-import { Attachment } from "../general/Attachment";
-import { QuantitativeValue } from "../general/QuantitativeValue";
+import { Attachment } from '../general/Attachment';
+import { QuantitativeValue } from '../general/QuantitativeValue';
 
-import {DataColumn} from './core/DataColumn'
-import {JCAMP} from './core/JCAMP'
-import { MeasurementResult } from "./core/MeasurementResult";
+import { DataColumn } from './core/DataColumn';
+import { JCAMP } from './core/JCAMP';
+import { MeasurementResult } from './core/MeasurementResult';
+import { Peak } from './core/Peak';
 
 /** Defines the required columns in an PXRD JCAMP file */
 export interface PxrdJCAMP extends JCAMP {
@@ -30,29 +31,30 @@ export interface PowderXrayDiffraction extends MeasurementResult {
    */
   sampleHolder?: string;
   anode:
-    | "CuKa"
-    | "CuKa2"
-    | "CuKa1"
-    | "CuKb1"
-    | "MoKa"
-    | "MoKa2"
-    | "MoKa1"
-    | "MoKb1"
-    | "CrKa"
-    | "CrKa2"
-    | "CrKa1"
-    | "CrKb1"
-    | "FeKa"
-    | "FeKa2"
-    | "FeKa1"
-    | "FeKb1"
-    | "CoKa"
-    | "CoKa1"
-    | "CoKa2"
-    | "CoKb1"
-    | "AgKa"
-    | "AgKa1"
-    | "AgKa2"
-    | "AgKb1";
+    | 'CuKa'
+    | 'CuKa2'
+    | 'CuKa1'
+    | 'CuKb1'
+    | 'MoKa'
+    | 'MoKa2'
+    | 'MoKa1'
+    | 'MoKb1'
+    | 'CrKa'
+    | 'CrKa2'
+    | 'CrKa1'
+    | 'CrKb1'
+    | 'FeKa'
+    | 'FeKa2'
+    | 'FeKa1'
+    | 'FeKb1'
+    | 'CoKa'
+    | 'CoKa1'
+    | 'CoKa2'
+    | 'CoKb1'
+    | 'AgKa'
+    | 'AgKa1'
+    | 'AgKa2'
+    | 'AgKb1';
   jcamp: PxrdJCAMP;
+  peaks?: Array<Peak>;
 }

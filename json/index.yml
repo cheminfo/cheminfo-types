@@ -1,6 +1,7 @@
 - src/spectra/Isotherm.d.ts: [Isotherm]
 - src/spectra/PowderXrayDiffraction.d.ts: [PowderXrayDiffraction]
 - src/spectra/ThermoGravimetricAnalysis.d.ts: [ThermoGravimetricAnalysis]
-- src/spectra/InfraredSpectroscopy.d.ts: [InfraredSpectroscopy.d]
+- src/spectra/InfraredSpectroscopy.d.ts: [InfraredSpectroscopy]
 - src/general/Compound.d.ts: [Compound]
 - src/general/Instrument.d.ts: [Instrument]
+- src/physical/BoilingPoint.d.ts: [BoilingPoint]

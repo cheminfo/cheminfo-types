@@ -1,6 +1,7 @@
 import { PositiveQuantitativeValue } from '../general/PositiveQuantitativeValue';
 
 import { MeasurementResult } from './core/MeasurementResult';
+import { Peak } from './core/Peak';
 
 /**
  * Metadata for thermogravimetric analysis.
@@ -12,4 +13,5 @@ export interface ThermoGravimetricAnalysis extends MeasurementResult {
    * @TJS-examples [{value: 10, unit: 'g'}]
    */
   sampleMass: PositiveQuantitativeValue;
+  peaks?: Array<Peak>;
 }

@@ -1,5 +1,5 @@
 import { QuantitativeValue } from '../general/QuantitativeValue';
-import { MeasurementResult } from '../spectra/MeasurementResult';
+import { MeasurementResult } from '../spectra/core/MeasurementResult';
 
 /**
  * boiling point
