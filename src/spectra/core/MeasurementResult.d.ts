@@ -1,6 +1,6 @@
-import { HTMLString } from "../general/HtmlString";
-import { Instrument } from "../general/Instrument";
-import { DataSource } from "../general/Source";
+import { HTMLString } from "../../general/HtmlString";
+import { Instrument } from "../../general/Instrument";
+import { DataSource } from "../../general/Source";
 /**Generic type for the result of a measurement, e.g., a spectrum or result from a crysallographic experiment */
 export interface MeasurementResult {
   /**Instrument that was used to perform the measurement */

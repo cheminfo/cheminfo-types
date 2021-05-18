@@ -1,4 +1,4 @@
-import { Attachment } from '../general/Attachment';
+import { Attachment } from '../../general/Attachment';
 
 import { DataColumn } from './DataColumn';
 

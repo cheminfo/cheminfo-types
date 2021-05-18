@@ -1,4 +1,4 @@
-import { DataColumn } from "../DataColumn";
+import { DataColumn } from "../core/DataColumn";
 
 export const IsothermDefaultColumns: Array<DataColumn> = [
   {

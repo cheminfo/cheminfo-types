@@ -1,10 +1,10 @@
-import { QuantitytWithUnit } from '../general/Quantity';
+import { QuantitativeValue } from '../general/QuantitativeValue';
 import { MeasurementResult } from '../spectra/MeasurementResult';
 
 /**
  * boiling point
  */
 export interface BoilingPoint extends MeasurementResult {
-  temperature: QuantitytWithUnit;
-  pressure: QuantitytWithUnit;
+  temperature: QuantitativeValue;
+  pressure: QuantitativeValue;
 }

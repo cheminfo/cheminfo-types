@@ -1,9 +1,9 @@
 import { Attachment } from "../general/Attachment";
-import { QuantitytWithUnit } from "../general/Quantity";
+import { QuantitativeValue } from "../general/QuantitativeValue";
 
-import {DataColumn} from './DataColumn'
-import {JCAMP} from './JCAMP'
-import { MeasurementResult } from "./MeasurementResult";
+import {DataColumn} from './core/DataColumn'
+import {JCAMP} from './core/JCAMP'
+import { MeasurementResult } from "./core/MeasurementResult";
 
 /** Defines the required columns in an PXRD JCAMP file */
 export interface PxrdJCAMP extends JCAMP {
@@ -22,7 +22,7 @@ export interface PowderXrayDiffraction extends MeasurementResult {
    * IUPAC: T06261
    * @TS-examples: [{value: 100, unit: 'K}]
    */
-  temperature?: QuantitytWithUnit;
+  temperature?: QuantitativeValue;
   cif?: Attachment;
   method?: string;
   /**Type of the sample holder

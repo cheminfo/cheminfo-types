@@ -1,6 +1,6 @@
-import { PositiveQuantitytWithUnit } from '../general/Quantity';
+import { PositiveQuantitativeValue } from '../general/PositiveQuantitativeValue';
 
-import { MeasurementResult } from './MeasurementResult';
+import { MeasurementResult } from './core/MeasurementResult';
 
 /**
  * Metadata for thermogravimetric analysis.
@@ -11,5 +11,5 @@ export interface ThermoGravimetricAnalysis extends MeasurementResult {
    * IUPAC: M03709
    * @TJS-examples [{value: 10, unit: 'g'}]
    */
-  sampleMass: PositiveQuantitytWithUnit;
+  sampleMass: PositiveQuantitativeValue;
 }

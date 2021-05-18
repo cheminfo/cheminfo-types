@@ -1,9 +1,9 @@
 import { Compound } from '../general/Compound';
-import { PositiveQuantitytWithUnit, PositiveNumber } from '../general/Quantity';
+import { PositiveQuantitativeValue } from '../general/PositiveQuantitativeValue';
 
-import { DataColumn } from './DataColumn';
-import { JCAMP } from './JCAMP';
-import { MeasurementResult } from './MeasurementResult';
+import { DataColumn } from './core/DataColumn';
+import { JCAMP } from './core/JCAMP';
+import { MeasurementResult } from './core/MeasurementResult';
 
 /** The material that is present in one or other (or both) of the bulk phases and capable of being adsorbed.
  * IUPAC: A00166
@@ -12,7 +12,7 @@ export interface Adsorptive extends Compound {
   /**Amount of a constituent divided by the total amount of all constituents in the mixture. It is also called mole fraction. Amount fraction is equal to the number fraction: the number of entities of one constituent divided by the total number of entities in the mixture.
    * IUPAC: A00296
    */
-  molarFraction: PositiveNumber;
+  molarFraction: PositiveQuantitativeValue;
 }
 
 /** Mixture of adsorptives
@@ -23,14 +23,14 @@ export interface AdsorptiveMixture {
   /**The pressure exerted by a pure substance (at a given temperature) in a system containing only the vapour and condensed phase (liquid or solid) of the substance.
    * IUPAC: S05479
    */
-  saturationPressure: PositiveQuantitytWithUnit;
+  saturationPressure: PositiveQuantitativeValue;
 }
 
 /** Properties derived from the analysis of an isotherm
  */
 export interface DerivedIsothermProperties {
-  henryCoefficient?: PositiveQuantitytWithUnit;
-  saturationLoading?: PositiveQuantitytWithUnit;
+  henryCoefficient?: PositiveQuantitativeValue;
+  saturationLoading?: PositiveQuantitativeValue;
 }
 
 /** Defines the required columns in an isotherm JCAMP file */
@@ -50,7 +50,7 @@ export interface Isotherm extends MeasurementResult {
    * IUPAC: T06261
    * @TS-examples: [{value: 100, unit: 'K}]
    */
-  temperature: PositiveQuantitytWithUnit;
+  temperature: PositiveQuantitativeValue;
   /** mobile phase composition */
   adsorptives: AdsorptiveMixture;
   /** Properties derived from the analysis of an isotherm */
@@ -63,5 +63,5 @@ export interface Isotherm extends MeasurementResult {
    * IUPAC: M03709
    * @TJS-examples [{value: 10, unit: 'g'}]
    */
-  sampleMass: PositiveQuantitytWithUnit;
+  sampleMass: PositiveQuantitativeValue;
 }
