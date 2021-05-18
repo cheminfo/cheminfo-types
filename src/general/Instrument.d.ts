@@ -1,4 +1,6 @@
-import { Location } from "./Location";
+import { Location } from './Location';
+import { SoftwareApplication } from './SoftwareApplication';
+
 /** The instrument with which a spectrum was measured.
  *  CHMO: 0000998
  */
@@ -22,6 +24,6 @@ export interface Instrument {
   /** The name of the software and the version number
    * @TJS-examples ["BELMaster™ 7"]
    */
-  software?: string;
+  software?: SoftwareApplication;
   location?: Location;
 }
