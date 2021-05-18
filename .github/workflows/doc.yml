@@ -22,7 +22,7 @@ jobs:
       - name: Build documentation
         run: |
           pip install json-schema-for-humans
-          sh docs/buildDocs.sh
+          sh docs/buildDocs.sh 
         with:
           entry: ${{ env.ENTRY_FILE }}
       - name: Deploy to GitHub pages
