@@ -1,3 +1,4 @@
+// ToDo: the thing below does not work as the fields need to be statically known for extending
 export type QuantitativeValue =
   | QuantitativeValueWCode
   | QuantitativeValueWText
