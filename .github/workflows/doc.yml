@@ -23,6 +23,7 @@ jobs:
         run: |
           pip install json-schema-for-humans
           sh docs/buildDocs.sh 
+          python docs/create_index.py
         with:
           entry: ${{ env.ENTRY_FILE }}
       - name: Deploy to GitHub pages
