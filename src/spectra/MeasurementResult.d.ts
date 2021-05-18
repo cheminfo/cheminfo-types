@@ -6,7 +6,7 @@ export interface MeasurementResult {
   /**Instrument that was used to perform the measurement */
   instrument: Instrument;
   /**Results obtained from analysing the data */
-  derivedProperties?: Array<Record<string, string|number>>; //  TodDo: properly define derived propery, e.g., should always have a technique
+  derivedProperties?: Object; //  TodDo: properly define derived propery, e.g., should always have a technique
   /**Comments on the measurement */
   remarks?: HTMLString;
   /** Description of the source of the data*/

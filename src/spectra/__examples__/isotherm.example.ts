@@ -1,4 +1,4 @@
-import { DataColumn } from "../MeasurementResult";
+import { DataColumn } from "../DataColumn";
 
 export const IsothermDefaultColumns: Array<DataColumn> = [
   {

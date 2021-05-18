@@ -1,4 +1,4 @@
-name: Deploy TypeDoc on GitHub pages
+name: Build and deploy Docs on GitHub pages
 
 on:
   workflow_dispatch:
@@ -20,13 +20,15 @@ jobs:
       - name: Install dependencies
         run: npm install
       - name: Build documentation
-        uses: zakodium/typedoc-action@v2
+        run: |
+          pip install json-schema-for-humans
+          sh docs/buildDocs.sh
         with:
           entry: ${{ env.ENTRY_FILE }}
       - name: Deploy to GitHub pages
         uses: JamesIves/github-pages-deploy-action@releases/v3
         with:
           GITHUB_TOKEN: ${{ secrets.BOT_TOKEN }}
-          BRANCH: gh-pages
+          BRANCH: main
           FOLDER: docs
           CLEAN: true

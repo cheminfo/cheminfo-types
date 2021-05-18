@@ -1,7 +1,9 @@
 import { Attachment } from "../general/Attachment";
 import { QuantitytWithUnit } from "../general/Quantity";
 
-import { MeasurementResult, JCAMP, DataColumn } from "./MeasurementResult";
+import {DataColumn} from './DataColumn'
+import {JCAMP} from './JCAMP'
+import { MeasurementResult } from "./MeasurementResult";
 
 /** Defines the required columns in an PXRD JCAMP file */
 export interface PxrdJCAMP extends JCAMP {
