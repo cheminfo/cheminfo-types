@@ -1,0 +1,5 @@
+- ../src/spectra/isotherm.d.ts: [Isotherm]
+- ../src/spectra/pxrd.d.ts: [PXRD]
+- ../scrc/spectra/tga.d.ts: [TGA]
+- ../src/general/compound.d.ts: [Compound]
+- ../src/general/instrument.d.ts: [Instrument]
