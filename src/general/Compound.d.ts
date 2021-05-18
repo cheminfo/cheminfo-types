@@ -23,7 +23,7 @@ export interface Compound {
   description?: HTMLString;
   ocl?: OCLObject;
   /**
-   * @TJS-examples ['Ethyl benzene']
+   * @TJS-examples ["Ethyl benzene", "Acetic acid"]
    */
   title?: string;
   name?: Array<ChemicalName>;
