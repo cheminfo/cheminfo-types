@@ -1,5 +1,5 @@
-import { HTMLString } from "./HtmlString";
-import { PositiveQuantitativeValue } from "./PositiveQuantitativeValue";
+import { HTMLString } from './HtmlString';
+import { PositiveQuantitativeValue } from './PositiveQuantitativeValue';
 
 /* Describes a chemical compound in general  */
 export interface Compound {
@@ -9,23 +9,33 @@ export interface Compound {
   mf: string;
   /* broad classification of the compound class*/
   kind?:
-    | "catalyst"
-    | "buffer"
-    | "cellline"
-    | "RNA"
-    | "DNA"
-    | "molecule"
-    | "peptide"
-    | "protein"
-    | "material"
-    | "MOF"
-    | "zeolite";
+    | 'catalyst'
+    | 'buffer'
+    | 'cellline'
+    | 'RNA'
+    | 'DNA'
+    | 'molecule'
+    | 'peptide'
+    | 'protein'
+    | 'material'
+    | 'MOF'
+    | 'zeolite';
   description?: HTMLString;
   ocl?: OCLObject;
   /**
    * @TJS-examples ["Ethyl benzene", "Acetic acid"]
    */
   title?: string;
+  /**
+   * Simplified Molecular-Input Line-Entry System (SMILES) computed from chemical structure.
+   * @TJS-examples ["C1=CC=C(C=C1)C=O"]
+   */
+  smiles?: string;
+  /**
+   * International Chemical Identifier hash (InChIKey) computed from chemical structure using the International Union of Pure and Applied Chemistry (IUPAC) standard.
+   * @TJS-examples ["LFQSCWFLJHTTHZ-UHFFFAOYSA-N"]
+   */
+  inchiKey?: string;
   name?: Array<ChemicalName>;
   /**
    * mass fraction purity calculated as (mass pure product) / (mass impure product)

@@ -1,8 +1,8 @@
-import {Compound} from '../general/Compound'
-import { QuantitativeValue } from "../general/QuantitativeValue";
+import { Compound } from '../general/Compound';
+import { QuantitativeValue } from '../general/QuantitativeValue';
 
-import { MeasurementResult } from "./core/MeasurementResult";
-import {Peak} from "./core/Peak"
+import { MeasurementResult } from './core/MeasurementResult';
+import { Peak } from './core/Peak';
 
 /**
  * Metadata for infrared spectroscopy. Groups absorption, emission,
@@ -18,7 +18,13 @@ export interface InfraredSpectroscopy extends MeasurementResult {
   /** measurement principle
    * @TS-examples: [{value: 100, unit: 'K}]
    */
-  principle?: "adsorption"|"emission"|"transmission"|"reflectance";
+  principle?: 'adsorption' | 'emission' | 'transmission' | 'reflectance';
+  /**
+   * Solvent used to dissolve, if measurement in solution
+   * @TJS-examples [{'mf': 'CH3OH', 'smiles': 'CCO'}]
+   */
   solvent?: Compound;
+  /** Array of peaks
+   */
   peaks?: Array<Peak>;
 }

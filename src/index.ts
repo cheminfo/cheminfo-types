@@ -1,7 +1,7 @@
 export { InfraredSpectroscopy } from './spectra/InfraredSpectroscopy';
 export { PowderXrayDiffraction } from './spectra/PowderXrayDiffraction';
 export { Isotherm } from './spectra/Isotherm';
-export { ThermoGravimetricAnalysis } from './spectra/ThermoGravimetricAnalysis';
+export { ThermoGravimetricAnalysis } from './spectra/thermoGravimetricAnalysis/ThermoGravimetricAnalysis';
 
 export { QuantitativeValue } from './general/QuantitativeValue';
 export { PositiveQuantitativeValue } from './general/PositiveQuantitativeValue';
