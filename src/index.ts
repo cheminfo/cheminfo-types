@@ -10,10 +10,10 @@ export { DataSource } from './general/DataSource';
 
 export { BoilingPoint } from './physical/BoilingPoint';
 
-export { info1D } from './spectra/nmr/info1D';
-export { info2D } from './spectra/nmr/info2D';
-export { spectrum2D } from './spectra/nmr/spectrum2D';
-export { spectrum1D } from './spectra/nmr/spectrum1D';
-export { Signal1D } from './spectra/nmr/signal1D';
-export { Signal2D } from './spectra/nmr/signal2D';
+export { Info1D } from './spectra/nmr/spectrum/Info1D';
+export { Info2D } from './spectra/nmr/spectrum/Info2D';
+export { Spectrum2D } from './spectra/nmr/spectrum/Spectrum2D';
+export { Spectrum1D } from './spectra/nmr/spectrum/Spectrum1D';
+export { Signal1D } from './spectra/nmr/spectrum/Signal1D';
+export { Signal2D } from './spectra/nmr/spectrum/Signal2D';
 
