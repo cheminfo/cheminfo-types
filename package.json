@@ -1,6 +1,6 @@
 {
   "name": "cheminfo-types",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "Types for cheminfo packages and cheminfo data schema ",
   "main": "./lib/index.js",
   "module": "./lib-esm/index.js",
