@@ -1,5 +1,12 @@
 # Changelog
 
+### [0.1.1](https://www.github.com/cheminfo/cheminfo-types/compare/v0.1.0...v0.1.1) (2021-05-25)
+
+
+### Bug Fixes
+
+* failing compilation ([7e1799e](https://www.github.com/cheminfo/cheminfo-types/commit/7e1799eead3ba40890ba5bb505f7ff86c8aa971e))
+
 ## 0.1.0 (2021-05-25)
 
 
