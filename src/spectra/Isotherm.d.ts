@@ -1,10 +1,9 @@
 import { Compound } from '../general/Compound';
-import { PositiveQuantitativeValue } from '../general/PositiveQuantitativeValue';
+import { QuantitativeValue } from '../general/QuantitativeValue';
 
 import { DataColumn } from './core/DataColumn';
 import { JCAMP } from './core/JCAMP';
 import { MeasurementResult } from './core/MeasurementResult';
-
 /** The material that is present in one or other (or both) of the bulk phases and capable of being adsorbed.
  * IUPAC: A00166
  */
@@ -12,7 +11,7 @@ export interface Adsorptive extends Compound {
   /**Amount of a constituent divided by the total amount of all constituents in the mixture. It is also called mole fraction. Amount fraction is equal to the number fraction: the number of entities of one constituent divided by the total number of entities in the mixture.
    * IUPAC: A00296
    */
-  molarFraction: PositiveQuantitativeValue;
+  molarFraction: QuantitativeValue;
 }
 
 /** Mixture of adsorptives
@@ -23,14 +22,7 @@ export interface AdsorptiveMixture {
   /**The pressure exerted by a pure substance (at a given temperature) in a system containing only the vapour and condensed phase (liquid or solid) of the substance.
    * IUPAC: S05479
    */
-  saturationPressure: PositiveQuantitativeValue;
-}
-
-/** Properties derived from the analysis of an isotherm
- */
-export interface DerivedIsothermProperties {
-  henryCoefficient?: PositiveQuantitativeValue;
-  saturationLoading?: PositiveQuantitativeValue;
+  saturationPressure: QuantitativeValue;
 }
 
 /** Defines the required columns in an isotherm JCAMP file */
@@ -50,11 +42,9 @@ export interface Isotherm extends MeasurementResult {
    * IUPAC: T06261
    * @TS-examples: [{value: 100, unit: 'K}]
    */
-  temperature: PositiveQuantitativeValue;
+  temperature: QuantitativeValue;
   /** mobile phase composition */
   adsorptives: AdsorptiveMixture;
-  /** Properties derived from the analysis of an isotherm */
-  derivedProperties?: DerivedIsothermProperties;
   /** Measurement principle with which the gas adsorption/desorption isotherm was measured. */
   method: 'gravimetric' | 'volumetric';
   /** Data attached as JCAMP file */
@@ -63,5 +53,5 @@ export interface Isotherm extends MeasurementResult {
    * IUPAC: M03709
    * @TJS-examples [{value: 10, unit: 'g'}]
    */
-  sampleMass: PositiveQuantitativeValue;
+  sampleMass: QuantitativeValue;
 }

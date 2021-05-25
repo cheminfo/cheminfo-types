@@ -4,7 +4,6 @@ export { Isotherm } from './spectra/Isotherm';
 export { ThermoGravimetricAnalysis } from "./spectra/ThermoGravimetricAnalysis";
 
 export { QuantitativeValue } from './general/QuantitativeValue';
-export { PositiveQuantitativeValue } from './general/PositiveQuantitativeValue';
 export { Instrument } from './general/Instrument';
 export { Range } from './general/Range';
 export { DataSource } from './general/DataSource';

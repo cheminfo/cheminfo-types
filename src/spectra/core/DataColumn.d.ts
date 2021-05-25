@@ -1,4 +1,4 @@
-import { PositiveQuantitativeValue } from '../../general/PositiveQuantitativeValue';
+import { QuantitativeValue } from '../../general/QuantitativeValue';
 
 export interface DataColumn {
   /* one letter shortcut for the column name in the JCAMP
@@ -19,5 +19,5 @@ export interface DataColumn {
   /**typescript type of the value
    * @TJS-examples [PositiveNumber]
    */
-  valueType?: number | string | PositiveQuantitativeValue;
+  valueType?: number | string | QuantitativeValue;
 }
