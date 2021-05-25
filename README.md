@@ -10,7 +10,7 @@ Types for cheminfo packages and cheminfo data schema.
 __Key principles:__ 
 - One type should correspond to one React component 
 - The schema should not be so complicated that it becomes unusable 
-
+- Use `@tjs-examples` to give examples that will show in the JSON schema and documentation
 
 ## Installation
 
