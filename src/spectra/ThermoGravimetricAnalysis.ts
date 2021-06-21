@@ -1,6 +1,7 @@
-import { PositiveQuantitativeValue } from '../../general/PositiveQuantitativeValue';
-import { MeasurementResult } from '../core/MeasurementResult';
-import { Peak } from '../core/Peak';
+import { QuantitativeValue } from '../general/QuantitativeValue';
+
+import { MeasurementResult } from './core/MeasurementResult';
+import { Peak } from './core/Peak';
 
 /**
  * Metadata for thermogravimetric analysis.

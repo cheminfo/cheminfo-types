@@ -14,7 +14,7 @@ import { MolecularAssignment } from './MolecularAssignment';
  *
  * From the  `BaseDerivedProperty` type we get the slots to store some processing information (e.g., how the peak picking was done)
  */
-interface Peak extends BaseDerivedProperty {
+export interface Peak extends BaseDerivedProperty {
   location: {
     independent: Array<QuantitativeValue>;
     dependent?: Array<QuantitativeValue>;
