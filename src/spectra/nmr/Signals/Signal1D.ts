@@ -1,11 +1,12 @@
-import type { Jcoupling } from '../Jcoupling';
+import type { JCoupling } from '../JCoupling';
 import type { Signal } from './Signal';
+import type { Peak1D } from '../Peaks/Peak1D';
 
 export interface Signal1D extends Signal {
   delta: number;
   diaID: Array<string>;
   originDelta?: number;
   multiplicity: string;
-  j: Jcoupling[];
-  peak?: Array<Partial<{ x: number; intensity: number; width: number }>>;
+  j: JCoupling[];
+  peak?: Peak1D[];
 }

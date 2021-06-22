@@ -15,7 +15,7 @@ export { Info2D } from './spectra/nmr/Info/Info2D';
 export { Spectrum2D } from './spectra/nmr/Spectra/Spectrum2D';
 export { Spectrum1D } from './spectra/nmr/Spectra/Spectrum1D';
 export { Zone } from './spectra/nmr/Zones/Zone';
-export { Jcoupling } from './spectra/nmr/Jcoupling';
+export { JCoupling } from './spectra/nmr/JCoupling';
 export { Signal1D } from './spectra/nmr/Signals/Signal1D';
 export { Signal2D } from './spectra/nmr/Signals/Signal2D';
 export { Data1D } from './spectra/nmr/Data1D';
