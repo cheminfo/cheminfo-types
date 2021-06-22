@@ -18,13 +18,10 @@ interface Peaks {
 export interface Spectrum1D extends Spectrum {
   [index: string]: Data1D | Peaks | Ranges | Integral[] | number | any | Array<any>;
   data: Data1D;
-  originalData?: Data1D;
   peaks: Peaks;
   integrals: Integral[];
   ranges: Ranges;
-  shiftX: number;
   meta: any;
   info: any;
-  originalInfo: any;
   filters: Array<any>;
 }

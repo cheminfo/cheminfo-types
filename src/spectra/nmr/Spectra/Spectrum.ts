@@ -1,5 +1,3 @@
-import { Display } from '../Display';
-
 interface LoadedFiles {
   name: string;
   extension?: string;
@@ -14,6 +12,5 @@ interface Source {
 export interface Spectrum {
   id: string | number;
   source?: Source;
-  display: Display;
   meta: any;
 }

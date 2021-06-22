@@ -16,6 +16,4 @@ export interface Spectrum2D extends Spectrum {
   filters: Array<any>;
   data: Data2D;
   info: Info2D;
-  originalInfo?: Info2D;
-  originalData: Data2D;
 }
