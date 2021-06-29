@@ -1,6 +1,6 @@
 import { Attachment } from '../../general/Attachment';
 
-import { DataColumn } from './DataColumn';
+import { Variable } from './Variable';
 
 /**
  * Specifies metadata about an attached data file
@@ -20,5 +20,5 @@ export interface DataFile extends Attachment {
    * specifies the columns and their abbreviations
    * @minItems 1
    */
-  columns?: Array<DataColumn>;
+  columns?: Array<Variable>;
 }

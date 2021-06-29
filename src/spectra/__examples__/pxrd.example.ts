@@ -1,17 +1,17 @@
-import { DataColumn } from "../core/DataColumn";
+import { Variable } from '../core/Variable';
 
-export const PxrdDefaultColumns: Array<DataColumn> = [
+export const PxrdDefaultColumns: Array<Variable> = [
   {
-    abbreviation: "x",
-    unit: "°",
+    abbreviation: 'x',
+    unit: '°',
     /**twice the Bragg angle*/
-    name: "2θ",
-    variableType: "INDEPENDENT",
+    name: '2θ',
+    variableType: 'INDEPENDENT',
   },
   {
-    abbreviation: "y",
-    unit: "",
-    name: "intensity",
-    variableType: "DEPENDENT",
+    abbreviation: 'y',
+    unit: '',
+    name: 'intensity',
+    variableType: 'DEPENDENT',
   },
 ];

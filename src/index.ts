@@ -1,9 +1,9 @@
-export { InfraredSpectroscopy } from './spectra/InfraredSpectroscopy';
+export { InfraredSpectroscopy } from './spectra/IRSpectroscopy/InfraredSpectroscopy';
 export { PowderXrayDiffraction } from './spectra/PowderXrayDiffraction';
 export { Isotherm } from './spectra/Isotherm';
-export { ThermoGravimetricAnalysis } from "./spectra/ThermoGravimetricAnalysis";
+export { ThermoGravimetricAnalysis } from './spectra/ThermoGravimetricAnalysis';
 
-export { QuantitativeValue } from './general/QuantitativeValue';
+export { Value } from './general/Value';
 export { Instrument } from './general/Instrument';
 export { Range } from './general/Range';
 export { DataSource } from './general/DataSource';

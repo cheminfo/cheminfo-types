@@ -1,17 +1,17 @@
 import { Attachment } from '../general/Attachment';
-import { QuantitativeValue } from '../general/QuantitativeValue';
+import { Value } from '../general/Value';
 
-import { DataColumn } from './core/DataColumn';
 import { JCAMP } from './core/JCAMP';
 import { MeasurementResult } from './core/MeasurementResult';
 import { Peak } from './core/Peak';
+import { Variable } from './core/Variable';
 
 /** Defines the required columns in an PXRD JCAMP file */
 export interface PxrdJCAMP extends JCAMP {
   /**
    *@default require('./__examples__/pxrd.example').PxrdDefaultColumns
    */
-  columns: Array<DataColumn>;
+  columns: Array<Variable>;
 }
 
 /**
@@ -23,7 +23,7 @@ export interface PowderXrayDiffraction extends MeasurementResult {
    * IUPAC: T06261
    * @TS-examples: [{value: 100, unit: 'K}]
    */
-  temperature?: QuantitativeValue;
+  temperature?: Value;
   cif?: Attachment;
   method?: string;
   /**Type of the sample holder

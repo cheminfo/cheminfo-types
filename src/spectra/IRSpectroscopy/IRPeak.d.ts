@@ -1,7 +1,7 @@
 import { Value } from '../../general/Value';
 
-import { BaseDerivedProperty } from './BaseDerivedProperty';
-import { MolecularAssignment } from './MolecularAssignment';
+import { BaseDerivedProperty } from '../core/BaseDerivedProperty';
+import { MolecularAssignment } from '../core/MolecularAssignment';
 
 /**Peak is characterised by independent coordinates (e.g., ppm on 2 axis in 2D NMR, angle in Xray diffraction, wavenumber in IR)
  * and might also have dependent values in one (e.g., transmission, absorption) or multple (e.g., weight loss and temperature for TGA) dimensions. The choice of "independent" and "dependent"  is because this seems to be general to all measurement techniques: we vary something and observer changes somewhere else. But it is not general that it is x/y/z (which might imply Euclidean coordinates, but the data might be better presented in spherical coordinates) and we do not know in general how many dependent/independent coodinates we have.
@@ -14,11 +14,13 @@ import { MolecularAssignment } from './MolecularAssignment';
  *
  * From the  `BaseDerivedProperty` type we get the slots to store some processing information (e.g., how the peak picking was done)
  */
-interface Peak extends BaseDerivedProperty {
-  location: {
-    independent: Array<Value>;
-    dependent?: Array<Value>;
+interface IRPeak {
+  position: {
+    a: number; // absorbance
+    t: number; // transmittance
+    l: number; // wavelength
+    w: number; // wavenumber
   };
-  assignment?: MolecularAssignment;
-  annotation?: string;
+  publicationAssignment?: string;
+  kind?: string;
 }

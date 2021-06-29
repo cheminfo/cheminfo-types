@@ -1,20 +1,27 @@
-import { Compound } from '../general/Compound';
-import { QuantitativeValue } from '../general/QuantitativeValue';
+import { Compound } from '../../general/Compound';
+import { Value } from '../../general/Value';
 
-import { MeasurementResult } from './core/MeasurementResult';
-import { Peak } from './core/Peak';
+import { MeasurementResult } from '../core/MeasurementResult';
+import { Peak } from '../core/Peak';
 
 /**
  * Metadata for infrared spectroscopy. Groups absorption, emission,
  * transmission, and reflectance
  * CHMO:0000630, 0002290, 0000649, 0000643
  */
-export interface InfraredSpectroscopy extends MeasurementResult {
+export interface InfraredSpectroscopy extends MeasurementResult { 
+	variables.w; 
+	variables.a:
+
+
+
+   meta?: Object;
+
   /** temperature at which the measurement was performed (short form for thermodynamic, Celsius or Fahrenheit temperature)
    * IUPAC: T06261
    * @TS-examples: [{value: 100, unit: 'K}]
    */
-  temperature?: QuantitativeValue;
+  temperature?: Value;
   /** measurement principle
    * @TS-examples: [{value: 100, unit: 'K}]
    */
@@ -26,5 +33,14 @@ export interface InfraredSpectroscopy extends MeasurementResult {
   solvent?: Compound;
   /** Array of peaks
    */
-  peaks?: Array<Peak>;
+  peaks?: Array<IRPeak>;
 }
+
+/**
+derivedProperties: {
+	peakPicking: [{
+		processingSteps: Array<ProcessingStep>
+		peaks: Array<IRPeak>
+	}]
+}
+*/
