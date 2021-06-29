@@ -1,9 +1,9 @@
 import { Compound } from '../general/Compound';
 import { Value } from '../general/Value';
 
-import { Variable } from './core/Variable';
 import { JCAMP } from './core/JCAMP';
 import { MeasurementResult } from './core/MeasurementResult';
+import { Variable } from './core/Variable';
 /** The material that is present in one or other (or both) of the bulk phases and capable of being adsorbed.
  * IUPAC: A00166
  */

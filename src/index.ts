@@ -1,4 +1,4 @@
-export { InfraredSpectroscopy } from './spectra/IRSpectroscopy/InfraredSpectroscopy';
+export { InfraredSpectroscopy } from './spectra/IRSpectroscopy/IRSpectroscopy';
 export { PowderXrayDiffraction } from './spectra/PowderXrayDiffraction';
 export { Isotherm } from './spectra/Isotherm';
 export { ThermoGravimetricAnalysis } from './spectra/ThermoGravimetricAnalysis';

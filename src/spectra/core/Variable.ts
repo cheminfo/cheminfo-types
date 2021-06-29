@@ -1,10 +1,4 @@
-import { Value } from '../../general/Value';
-
 export interface Variable {
-  /* one letter shortcut for the column name in the JCAMP
-   *@TJS-examples ['x', 'y', 'p']
-   **/
-  symbol: string;
   /**
    * Unit of the data in the column
    * @TJS-examples ["Pa", "kg"]
