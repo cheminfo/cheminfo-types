@@ -3,7 +3,7 @@ export interface Variable {
    * Unit of the data in the column
    * @TJS-examples ["Pa", "kg"]
    */
-  unit: string;
+  units: string;
   /**Long name of the column
    *@TJS-examples ["absolute pressure"]
    */

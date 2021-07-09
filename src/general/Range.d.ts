@@ -7,5 +7,5 @@ export interface Range {
   /** */
   precision?: number;
   /**A string or text indicating the unit of measurement. Useful if you cannot provide a standard unit code for unitCode. */
-  unit?: string;
+  units?: string;
 }

@@ -1,27 +1,17 @@
-import { Attachment } from '../general/Attachment';
-import { Value } from '../general/Value';
+import { Attachment } from '../../general/Attachment';
+import { Value } from '../../general/Value';
+import { MeasurementResult } from '../core/MeasurementResult';
+import { Variable } from '../core/Variable';
 
-import { JCAMP } from './core/JCAMP';
-import { MeasurementResult } from './core/MeasurementResult';
-import { Peak } from './core/Peak';
-import { Variable } from './core/Variable';
-
-/** Defines the required columns in an PXRD JCAMP file */
-export interface PxrdJCAMP extends JCAMP {
-  /**
-   *@default require('./__examples__/pxrd.example').PxrdDefaultColumns
-   */
-  columns: Array<Variable>;
-}
 
 /**
  * Metadata for powder X-ray diffraction
  * CHMO:0000158
  */
-export interface PowderXrayDiffraction extends MeasurementResult {
+export interface PXRD extends MeasurementResult {
   /** temperature at which the measurement was performed (short form for thermodynamic, Celsius or Fahrenheit temperature)
    * IUPAC: T06261
-   * @TS-examples: [{value: 100, unit: 'K}]
+   * @TS-examples: [{value: 100, units: 'K}]
    */
   temperature?: Value;
   cif?: Attachment;

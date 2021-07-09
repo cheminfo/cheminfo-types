@@ -7,5 +7,5 @@ export interface Value {
   /** */
   precision?: number;
   /**A string or text indicating the unit of measurement. The unit could be validated in the input form based on the UN/CEFACT Common Code list */
-  unit?: string;
+  units?: string;
 }
