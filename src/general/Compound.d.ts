@@ -1,5 +1,5 @@
 import { HTMLString } from './HtmlString';
-import { QuantitativeValue } from './QuantitativeValue';
+import { Value } from './Value';
 
 /* Describes a chemical compound in general  */
 export interface Compound {
@@ -41,11 +41,11 @@ export interface Compound {
    * mass fraction purity calculated as (mass pure product) / (mass impure product)
    * or concentration of a dissolved species
    */
-  purity?: QuantitativeValue;
+  purity?: Value;
   /** Molecular weight */
-  mw?: QuantitativeValue;
+  mw?: Value;
   /** Exact mass */
-  em?: QuantitativeValue;
+  em?: Value;
   /**Keywords related to the chemical
    * @TJS-examples [{doi: '10./123'}]
    */

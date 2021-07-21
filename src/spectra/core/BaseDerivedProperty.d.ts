@@ -1,5 +1,5 @@
 import { Process } from '../../general/Process';
-import { QuantitativeValue } from '../../general/QuantitativeValue';
+import { Value } from '../../general/Value';
 /**
  * The purpose of this type is to allow to store some basic processing for provenance steps
  *
@@ -9,5 +9,5 @@ import { QuantitativeValue } from '../../general/QuantitativeValue';
 export interface BaseDerivedProperty {
   method?: string;
   processingSteps?: Array<Process>; // we could store here a simple description of the steps or the function calls
-  value?: QuantitativeValue | Array<QuantitativeValue>;
+  meta?: Record<string, number|Value|string>;
 }
