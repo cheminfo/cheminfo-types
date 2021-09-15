@@ -10,8 +10,8 @@ export interface Variable {
   label: string;
   /**variable type, used to indicate whether the variable was changed in an experiment via the instrument/experimentator (e.g., the pressure for isotherms or the angle for xray diffraction) for if the variable depends on the changed variable */
   variableType: 'DEPENDENT' | 'INDEPENDENT';
-  /**typescript type of the value
-   * @TJS-examples [PositiveNumber]
+  /**
+   *
    */
-  valueType?: number | string;
+  data: number[];
 }

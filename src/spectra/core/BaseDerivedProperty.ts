@@ -9,5 +9,5 @@ import { Value } from '../../general/Value';
 export interface BaseDerivedProperty {
   method?: string;
   processingSteps?: Array<Process>; // we could store here a simple description of the steps or the function calls
-  meta?: Record<string, number|Value|string>;
+  result?: Record<string, number | Value | string>;
 }
