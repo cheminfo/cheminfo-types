@@ -1,5 +1,20 @@
 # Changelog
 
+## [0.2.0](https://www.github.com/cheminfo/cheminfo-types/compare/v0.1.1...v0.2.0) (2021-09-17)
+
+
+### ⚠ BREAKING CHANGES
+
+* replace Variable.type by Variable.isDependent
+
+### Features
+
+* allow range for boiling points ([fc60895](https://www.github.com/cheminfo/cheminfo-types/commit/fc60895ace49fb6c601d9970853481c289b84705))
+* export Variable and OneLetter ([56f128d](https://www.github.com/cheminfo/cheminfo-types/commit/56f128d7d722f1048cdb7400897a8f47af6fe918))
+* replace Variable.type by Variable.isDependent ([6f05857](https://www.github.com/cheminfo/cheminfo-types/commit/6f05857a411601f2dad5a73052cd3cad4ebea186))
+* specify variable allowed name ([5639c4b](https://www.github.com/cheminfo/cheminfo-types/commit/5639c4bae1ce46abbd7ce5da4fbe9ac236162cbc))
+* update TGA definition ([cc6727f](https://www.github.com/cheminfo/cheminfo-types/commit/cc6727f92df10e75b3ed3716edc62114e527368c))
+
 ### [0.1.1](https://www.github.com/cheminfo/cheminfo-types/compare/v0.1.0...v0.1.1) (2021-05-25)
 
 
