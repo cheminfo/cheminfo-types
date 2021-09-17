@@ -9,3 +9,6 @@ export { Range } from './general/Range';
 export { DataSource } from './general/DataSource';
 
 export { BoilingPoint } from './physical/BoilingPoint';
+
+export { Variable } from './spectra/core/Variable';
+export { OneLetter } from './spectra/core/OneLetter';
