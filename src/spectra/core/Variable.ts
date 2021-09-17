@@ -1,17 +1,32 @@
-export interface Variable {
+import { OneLetter } from './OneLetter';
+
+export interface Variable<
+  DataType extends number[] | Float64Array = number[] | Float64Array,
+> {
   /**
    * Unit of the data in the column
    * @TJS-examples ["Pa", "kg"]
    */
   units: string;
-  /**Long name of the column
+  /**
+   * Long name of the column
    *@TJS-examples ["absolute pressure"]
    */
   label: string;
-  /**variable type, used to indicate whether the variable was changed in an experiment via the instrument/experimentator (e.g., the pressure for isotherms or the angle for xray diffraction) for if the variable depends on the changed variable */
-  variableType: 'DEPENDENT' | 'INDEPENDENT';
   /**
    *
    */
-  data: number[];
+  isDependent?: boolean;
+  /**
+   * an array containing numerical data
+   */
+  data: DataType;
+  /** One letter that allows to define the variable */
+  symbol?: OneLetter;
+  /** If defined contain the minimal value of the data */
+  min?: number;
+  /** If defined contain the maximal value of the data */
+  max?: number;
+  /** If defined indicates (true or false) if the data series is monotone  */
+  isMonotone?: boolean;
 }
