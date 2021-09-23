@@ -1,12 +1,12 @@
 import { DoubleArray } from './DoubleArray';
 
-export interface DataXY {
+export interface DataXY<DataType extends DoubleArray = DoubleArray> {
   /**
    * Array of numbers on x axis
    */
-  x: DoubleArray;
+  x: DataType;
   /**
    * Array of numbers on y axis
    */
-  y: DoubleArray;
+  y: DataType;
 }
