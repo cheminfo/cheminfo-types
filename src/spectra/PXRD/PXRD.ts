@@ -1,8 +1,7 @@
 import { Attachment } from '../../general/Attachment';
 import { Value } from '../../general/Value';
-import { MeasurementResult } from '../core/MeasurementResult';
-import { Variable } from '../core/Variable';
-
+import { MeasurementResult } from '../../core/MeasurementResult';
+import { Variable } from '../../core/SpectrumVariable';
 
 /**
  * Metadata for powder X-ray diffraction

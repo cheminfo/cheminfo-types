@@ -1,6 +1,6 @@
 import { Value } from '../general/Value';
 import { Range } from '../general/Range';
-import { MeasurementResult } from '../spectra/core/MeasurementResult';
+import { MeasurementResult } from '../core/MeasurementResult';
 
 /**
  * boiling point

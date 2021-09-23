@@ -1,7 +1,7 @@
-import { MeasurementResult } from '../core/MeasurementResult';
+import { MeasurementResult } from '../../core/MeasurementResult';
 import { TGASettings } from './TGASettings';
 import { TGAZone } from './TGAZone';
-import { Variable } from '../core/Variable';
+import { Variable } from '../../core/SpectrumVariable';
 import { BaseDerivedProperty } from '../core/BaseDerivedProperty';
 
 /**

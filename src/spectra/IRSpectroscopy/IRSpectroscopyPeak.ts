@@ -12,14 +12,22 @@ import { MolecularAssignment } from '../core/MolecularAssignment';
  *
  * From the  `BaseDerivedProperty` type we get the slots to store some processing information (e.g., how the peak picking was done)
  */
-interface IRSpectroscopyPeak extends BaseDerivedProperty{
-  position: IRPeakPosition
+interface IRSpectroscopyPeak extends BaseDerivedProperty {
+  position: IRPeakPosition;
   publicationAssignment?: string;
   assignment?: MolecularAssignment;
   kind?: string;
 }
 
-type IRPeakPosition = waPeakPosition | wtPeakPosition | wePeakPosition | wrPeakPosition | laPeakPosition | ltPeakPosition | lePeakPosition | lrPeakPosition
+type IRPeakPosition =
+  | waPeakPosition
+  | wtPeakPosition
+  | wePeakPosition
+  | wrPeakPosition
+  | laPeakPosition
+  | ltPeakPosition
+  | lePeakPosition
+  | lrPeakPosition;
 
 interface waPeakPosition {
   w: number;
@@ -40,8 +48,6 @@ interface wrPeakPosition {
   w: number;
   r: number;
 }
-
-
 
 interface laPeakPosition {
   l: number;

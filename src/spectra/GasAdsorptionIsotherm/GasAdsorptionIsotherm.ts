@@ -1,5 +1,4 @@
-
-import { MeasurementResult } from '../core/MeasurementResult';
+import { MeasurementResult } from '../../core/MeasurementResult';
 
 import { GasAdsorptionIsothermSettings } from './GasAdsorptionIsothermSettings';
 

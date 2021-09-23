@@ -1,8 +1,7 @@
+import { DoubleArray } from './DoubleArray';
 import { OneLetter } from './OneLetter';
 
-export interface Variable<
-  DataType extends number[] | Float64Array = number[] | Float64Array,
-> {
+export interface SpectrumVariable<DataType extends DoubleArray = DoubleArray> {
   /**
    * Unit of the data in the column
    * @TJS-examples ["Pa", "kg"]
@@ -18,7 +17,7 @@ export interface Variable<
    */
   isDependent?: boolean;
   /**
-   * an array containing numerical data
+   * An array containing numerical data
    */
   data: DataType;
   /** One letter that allows to define the variable */

@@ -1,6 +1,6 @@
-import { DataSource } from '../../general/DataSource';
-import { HTMLString } from '../../general/HtmlString';
-import { Instrument } from '../../general/Instrument';
+import { DataSource } from '../general/DataSource';
+import { HTMLString } from '../general/HtmlString';
+import { Instrument } from '../general/Instrument';
 
 import { BaseDerivedProperty } from './BaseDerivedProperty';
 
