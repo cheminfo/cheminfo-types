@@ -1,5 +1,17 @@
 # Changelog
 
+## [0.3.0](https://www.github.com/cheminfo/cheminfo-types/compare/v0.2.0...v0.3.0) (2021-09-23)
+
+
+### Features
+
+* export DataXY, DoubleArray, OneLetter and Variable ([0632ef3](https://www.github.com/cheminfo/cheminfo-types/commit/0632ef30673da3bb74090bdb58a0d6d67587420c))
+
+
+### Bug Fixes
+
+* DataXY has a generic ([dfa7723](https://www.github.com/cheminfo/cheminfo-types/commit/dfa77236e55861be437fe121d811e18302ba24ff))
+
 ## [0.2.0](https://www.github.com/cheminfo/cheminfo-types/compare/v0.1.1...v0.2.0) (2021-09-17)
 
 
