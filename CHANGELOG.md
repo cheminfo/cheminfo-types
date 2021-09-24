@@ -1,5 +1,12 @@
 # Changelog
 
+### [0.3.1](https://www.github.com/cheminfo/cheminfo-types/compare/v0.3.0...v0.3.1) (2021-09-24)
+
+
+### Bug Fixes
+
+* fix build and move all files to 'todo' ([1f9bee0](https://www.github.com/cheminfo/cheminfo-types/commit/1f9bee022178791498bb70cc1acba4ab2ecf802a))
+
 ## [0.3.0](https://www.github.com/cheminfo/cheminfo-types/compare/v0.2.0...v0.3.0) (2021-09-23)
 
 
