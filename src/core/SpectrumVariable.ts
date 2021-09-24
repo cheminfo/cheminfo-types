@@ -1,6 +1,9 @@
 import { DoubleArray } from './DoubleArray';
 import { OneLetter } from './OneLetter';
 
+/**
+ * Describe a variable that can only contains as data an array of number
+ */
 export interface SpectrumVariable<DataType extends DoubleArray = DoubleArray> {
   /**
    * Unit of the data in the column

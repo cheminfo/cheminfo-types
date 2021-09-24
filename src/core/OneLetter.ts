@@ -1,3 +1,6 @@
+/**
+ * A type that allows one uppercase or lowercase letter
+ */
 export type OneLetter =
   | 'a'
   | 'b'

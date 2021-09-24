@@ -1,4 +1,6 @@
-/** Quantity that is defined as range, e.g., melting poing */
+/**
+ *  Quantity that is defined as range, e.g., melting point
+ */
 export interface Range {
   /** The lower value of some  characteristic or property.*/
   min: number;
