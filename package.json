@@ -4,7 +4,7 @@
   "description": "Types for cheminfo packages and cheminfo data schema ",
   "main": "./lib/index.js",
   "module": "./lib-esm/index.js",
-  "types": "./lib/index.d.ts",
+  "types": "./src/index.d.ts",
   "keywords": [],
   "author": "cheminfo developers",
   "license": "MIT",
