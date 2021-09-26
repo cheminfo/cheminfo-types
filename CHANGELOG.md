@@ -1,5 +1,13 @@
 # Changelog
 
+## [0.4.0](https://www.github.com/cheminfo/cheminfo-types/compare/v0.3.1...v0.4.0) (2021-09-26)
+
+
+### Features
+
+* add SpectrumVariables ([55f1e42](https://www.github.com/cheminfo/cheminfo-types/commit/55f1e42a2c265ed6163fefc432b1c55b47819d18))
+* rename .ts to .d.ts and expose src/index.t.ts as 'types' ([52c3e13](https://www.github.com/cheminfo/cheminfo-types/commit/52c3e13eafdd404446e5ee0fa5d800859572fa64))
+
 ### [0.3.1](https://www.github.com/cheminfo/cheminfo-types/compare/v0.3.0...v0.3.1) (2021-09-24)
 
 
