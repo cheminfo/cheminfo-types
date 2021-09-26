@@ -9,7 +9,7 @@ export interface SpectrumVariable<DataType extends DoubleArray = DoubleArray> {
    * Unit of the data in the column
    * @TJS-examples ["Pa", "kg"]
    */
-  units: string;
+  units?: string;
   /**
    * Long name of the column
    *@TJS-examples ["absolute pressure"]
