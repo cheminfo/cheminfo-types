@@ -1,8 +1,8 @@
 export { DataXY } from './core/DataXY';
 export { DoubleArray } from './core/DoubleArray';
-export { SpectrumVariable } from './core/SpectrumVariable';
-export { SpectrumVariables } from './core/SpectrumVariables';
-export { Spectrum } from './core/Spectrum';
+export { MeasurementXY } from './measurements/common/MeasurementXY';
+export { MeasurementXYVariables } from './measurements/common/MeasurementXYVariables';
+export { MeasurementVariable } from './measurements/common/MeasurementVariable';
 export { OneLetter } from './core/OneLetter';
 export { OneLowerCase } from './core/OneLowerCase';
 export { Value } from './core/Value';

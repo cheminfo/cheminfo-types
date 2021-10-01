@@ -1,10 +1,12 @@
-import { DoubleArray } from './DoubleArray';
-import { OneLetter } from './OneLetter';
+import { DoubleArray } from '../../core/DoubleArray';
+import { OneLetter } from '../../core/OneLetter';
 
 /**
  * Describe a variable that can only contains as data an array of number
  */
-export interface SpectrumVariable<DataType extends DoubleArray = DoubleArray> {
+export interface MeasurementVariable<
+  DataType extends DoubleArray = DoubleArray,
+> {
   /**
    * Unit of the data in the column
    * @TJS-examples ["Pa", "kg"]
