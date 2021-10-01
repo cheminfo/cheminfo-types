@@ -1,5 +1,18 @@
 # Changelog
 
+## [0.5.0](https://www.github.com/cheminfo/cheminfo-types/compare/v0.4.0...v0.5.0) (2021-10-01)
+
+
+### ⚠ BREAKING CHANGES
+
+* rename SpectrumVariable to Measurement Variable and SpectrumVariables to MeasurementXYVariables
+* Rename Spectrum to MeasurementXY
+
+### Features
+
+* Rename Spectrum to MeasurementXY ([8ebe783](https://www.github.com/cheminfo/cheminfo-types/commit/8ebe7836efa87d6181c4d603a4a490b1982514ba))
+* rename SpectrumVariable to Measurement Variable and SpectrumVariables to MeasurementXYVariables ([4739254](https://www.github.com/cheminfo/cheminfo-types/commit/473925431d68059bdcc3e72f033d1744800d18b3))
+
 ## [0.4.0](https://www.github.com/cheminfo/cheminfo-types/compare/v0.3.1...v0.4.0) (2021-09-26)
 
 
