@@ -17,13 +17,11 @@ export interface MeasurementVariable<
    *@TJS-examples ["absolute pressure"]
    */
   label: string;
-  /**
-   *
-   */
+  /** Scale representation of variable */
+  scale?: 'linear' | 'log'
+  /** Is not the independent variable */
   isDependent?: boolean;
-  /**
-   * An array containing numerical data
-   */
+  /** An array containing numerical data */
   data: DataType;
   /** One letter that allows to define the variable */
   symbol?: OneLetter;
@@ -33,4 +31,6 @@ export interface MeasurementVariable<
   max?: number;
   /** If defined indicates (true or false) if the data series is monotone  */
   isMonotone?: boolean;
+  /** This variable doesn't change with the dependent variable */
+  isConstant?: boolean;
 }
