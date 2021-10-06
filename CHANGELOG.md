@@ -1,5 +1,17 @@
 # Changelog
 
+## [0.6.0](https://www.github.com/cheminfo/cheminfo-types/compare/v0.5.0...v0.6.0) (2021-10-06)
+
+
+### Features
+
+* add dataType in MeasurementXY ([000105e](https://www.github.com/cheminfo/cheminfo-types/commit/000105e3f54f2e0f9f2e5b377405f91d41555298))
+
+
+### Bug Fixes
+
+* remove tests from CI ([f069a64](https://www.github.com/cheminfo/cheminfo-types/commit/f069a646a86a266c0bbf982e180d836b1fe67867))
+
 ## [0.5.0](https://www.github.com/cheminfo/cheminfo-types/compare/v0.4.0...v0.5.0) (2021-10-01)
 
 
