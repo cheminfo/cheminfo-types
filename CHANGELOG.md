@@ -1,5 +1,12 @@
 # Changelog
 
+### [0.6.1](https://www.github.com/cheminfo/cheminfo-types/compare/v0.6.0...v0.6.1) (2021-10-06)
+
+
+### Bug Fixes
+
+* revert change and correct test script name ([de3c8ec](https://www.github.com/cheminfo/cheminfo-types/commit/de3c8ec57de1e9c293287cfaf9b94a9acb01cbc4))
+
 ## [0.6.0](https://www.github.com/cheminfo/cheminfo-types/compare/v0.5.0...v0.6.0) (2021-10-06)
 
 
