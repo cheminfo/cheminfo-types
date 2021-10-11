@@ -1,3 +1,4 @@
+import { Instrument } from '../../../todo/general/Instrument.d';
 import { DoubleArray } from '../../core/DoubleArray';
 
 import { MeasurementXYVariables } from './MeasurementXYVariables';
@@ -17,7 +18,10 @@ export interface MeasurementXY<DataType extends DoubleArray = DoubleArray> {
    * of different types
    */
   dataType?: string;
-  settings?: Record<string, any>;
+  settings?: {
+    instrument?: Instrument;
+    [key: string]: any;
+  };
   meta?: Record<string, any>;
   derived?: Record<string, any>;
 }

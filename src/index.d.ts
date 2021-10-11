@@ -7,3 +7,6 @@ export { OneLetter } from './core/OneLetter';
 export { OneLowerCase } from './core/OneLowerCase';
 export { Value } from './core/Value';
 export { Range } from './core/Range';
+export { FromTo } from './core/FromTo';
+export { FromToXY } from './core/FromToXY';
+export { PointXY } from './core/PointXY';
