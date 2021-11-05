@@ -1,5 +1,18 @@
 # Changelog
 
+## [0.7.0](https://www.github.com/cheminfo/cheminfo-types/compare/v0.6.0...v0.7.0) (2021-11-05)
+
+
+### Features
+
+* add FromTo, FromToXY and PointXY ([31e256f](https://www.github.com/cheminfo/cheminfo-types/commit/31e256f454df87c16c70a286139ec8d719b09775))
+* add TextData interface ([8dbed66](https://www.github.com/cheminfo/cheminfo-types/commit/8dbed66ec2087e68ff9c4aa087d5c5556ab0797e))
+
+
+### Bug Fixes
+
+* revert change and correct test script name ([de3c8ec](https://www.github.com/cheminfo/cheminfo-types/commit/de3c8ec57de1e9c293287cfaf9b94a9acb01cbc4))
+
 ## [0.6.0](https://www.github.com/cheminfo/cheminfo-types/compare/v0.5.0...v0.6.0) (2021-10-06)
 
 
