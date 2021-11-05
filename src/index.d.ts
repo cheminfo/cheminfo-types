@@ -10,3 +10,5 @@ export { Range } from './core/Range';
 export { FromTo } from './core/FromTo';
 export { FromToXY } from './core/FromToXY';
 export { PointXY } from './core/PointXY';
+
+export { TextData } from './core/TextData';
