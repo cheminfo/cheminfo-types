@@ -14,6 +14,8 @@
     "check-types": "tsc --noEmit",
     "eslint": "eslint src --cache",
     "eslint-fix": "npm run eslint -- --fix",
+    "prettier": "prettier --check src",
+    "prettier-write": "prettier --write src",
     "test": "npm run eslint && npm run check-types",
     "generate-json": "ts-node json/buildJSON.ts"
   },
