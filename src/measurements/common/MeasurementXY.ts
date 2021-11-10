@@ -1,5 +1,5 @@
-import { Instrument } from '../../../todo/general/Instrument.d';
 import { DoubleArray } from '../../core/DoubleArray';
+import { Instrument } from '../../core/Instrument.d';
 
 import { MeasurementXYVariables } from './MeasurementXYVariables';
 

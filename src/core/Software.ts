@@ -1,4 +1,4 @@
-export interface SoftwareApplication {
+export interface Software {
   /** Version of the software instance.
    * @TJS-examples ['v0.0.1', 'rev111']
    */
