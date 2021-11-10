@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.8.0](https://www.github.com/cheminfo/cheminfo-types/compare/v0.7.0...v0.8.0) (2021-11-10)
+
+
+### Features
+
+* add Location, Instrument and Software ([c5a59a6](https://www.github.com/cheminfo/cheminfo-types/commit/c5a59a69fad61af3658e128bf20724f1c70af3e3))
+
 ## [0.7.0](https://www.github.com/cheminfo/cheminfo-types/compare/v0.6.0...v0.7.0) (2021-11-05)
 
 
