@@ -1,5 +1,17 @@
 # Changelog
 
+## [0.9.0](https://www.github.com/cheminfo/cheminfo-types/compare/v0.8.0...v0.9.0) (2021-12-07)
+
+
+### Features
+
+* add ICPResult ([f4c13aa](https://www.github.com/cheminfo/cheminfo-types/commit/f4c13aa25965fa7cd54e1671b5b87c7abc717f6f))
+
+
+### Bug Fixes
+
+* add optional values in icp ([6765ac2](https://www.github.com/cheminfo/cheminfo-types/commit/6765ac25b2830de0026ff60f62f396a833027c51))
+
 ## [0.8.0](https://www.github.com/cheminfo/cheminfo-types/compare/v0.7.0...v0.8.0) (2021-11-10)
 
 
