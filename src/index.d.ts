@@ -1,14 +1,16 @@
-export { DataXY } from './core/DataXY';
-export { DoubleArray } from './core/DoubleArray';
-export { MeasurementXY } from './measurements/common/MeasurementXY';
-export { MeasurementXYVariables } from './measurements/common/MeasurementXYVariables';
-export { MeasurementVariable } from './measurements/common/MeasurementVariable';
-export { OneLetter } from './core/OneLetter';
-export { OneLowerCase } from './core/OneLowerCase';
-export { Value } from './core/Value';
-export { Range } from './core/Range';
-export { FromTo } from './core/FromTo';
-export { FromToXY } from './core/FromToXY';
-export { PointXY } from './core/PointXY';
+export * from './analysis/icp';
 
-export { TextData } from './core/TextData';
+export * from './core/DataXY';
+export * from './core/DoubleArray';
+export * from './core/FromTo';
+export * from './core/FromToXY';
+export * from './core/OneLetter';
+export * from './core/OneLowerCase';
+export * from './core/PointXY';
+export * from './core/TextData';
+export * from './core/Range';
+export * from './core/Value';
+
+export * from './measurements/common/MeasurementXY';
+export * from './measurements/common/MeasurementXYVariables';
+export * from './measurements/common/MeasurementVariable';
