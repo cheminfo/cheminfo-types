@@ -1,5 +1,12 @@
 # Changelog
 
+### [0.9.1](https://www.github.com/cheminfo/cheminfo-types/compare/v0.9.0...v0.9.1) (2021-12-07)
+
+
+### Bug Fixes
+
+* improve ICP dilution ([cdb9276](https://www.github.com/cheminfo/cheminfo-types/commit/cdb9276bc3855c3218806a6a1ebd550db371dc39))
+
 ## [0.9.0](https://www.github.com/cheminfo/cheminfo-types/compare/v0.8.0...v0.9.0) (2021-12-07)
 
 
