@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.10.0](https://www.github.com/cheminfo/cheminfo-types/compare/v0.9.1...v0.10.0) (2022-02-09)
+
+
+### Features
+
+* add NumberArray ([ea39322](https://www.github.com/cheminfo/cheminfo-types/commit/ea3932243431a4f64bb802a9304a3b9318349f59))
+
 ### [0.9.1](https://www.github.com/cheminfo/cheminfo-types/compare/v0.9.0...v0.9.1) (2021-12-07)
 
 
