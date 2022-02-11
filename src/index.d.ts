@@ -13,5 +13,6 @@ export * from './core/TextData';
 export * from './core/Value';
 
 export * from './measurements/common/MeasurementXY';
+export * from './measurements/common/MeasurementVariables';
 export * from './measurements/common/MeasurementXYVariables';
 export * from './measurements/common/MeasurementVariable';
