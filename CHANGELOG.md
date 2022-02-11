@@ -1,5 +1,12 @@
 # Changelog
 
+### [0.10.1](https://www.github.com/cheminfo/cheminfo-types/compare/v0.10.0...v0.10.1) (2022-02-11)
+
+
+### Bug Fixes
+
+* remove BigInt64 array from NumberArray ([f976f6a](https://www.github.com/cheminfo/cheminfo-types/commit/f976f6aee9e0f9c8899570ea9bc3a5e15eca1c44))
+
 ## [0.10.0](https://www.github.com/cheminfo/cheminfo-types/compare/v0.9.1...v0.10.0) (2022-02-09)
 
 
