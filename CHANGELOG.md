@@ -13,6 +13,19 @@
 
 * tsconfig ([86f72a4](https://www.github.com/cheminfo/cheminfo-types/commit/86f72a47b4ce1ae9c9121fc60e9a6a901cc3f634))
 
+## [0.11.0](https://www.github.com/cheminfo/cheminfo-types/compare/v0.10.1...v0.11.0) (2022-02-18)
+
+
+### Features
+
+* add PeakXYWidth ([b617e04](https://www.github.com/cheminfo/cheminfo-types/commit/b617e04ace9e3728d0aeba64958f9d85932d734f))
+* add prepack script to build chehminfoTypes.d.ts ([40caaf4](https://www.github.com/cheminfo/cheminfo-types/commit/40caaf4c8364da7748bb02e4d0b18112887d9827))
+
+
+### Bug Fixes
+
+* tsconfig ([86f72a4](https://www.github.com/cheminfo/cheminfo-types/commit/86f72a47b4ce1ae9c9121fc60e9a6a901cc3f634))
+
 ### [0.10.1](https://www.github.com/cheminfo/cheminfo-types/compare/v0.10.0...v0.10.1) (2022-02-11)
 
 
