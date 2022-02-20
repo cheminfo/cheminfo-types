@@ -1,5 +1,12 @@
 # Changelog
 
+### [0.11.1](https://www.github.com/cheminfo/cheminfo-types/compare/v0.11.0...v0.11.1) (2022-02-20)
+
+
+### Bug Fixes
+
+* export correct files ([bedf015](https://www.github.com/cheminfo/cheminfo-types/commit/bedf0157aa098d280b89d13ef7d4182f2cbad4a9))
+
 ## [0.11.0](https://www.github.com/cheminfo/cheminfo-types/compare/v0.10.1...v0.11.0) (2022-02-18)
 
 
