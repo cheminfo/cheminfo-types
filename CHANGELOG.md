@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.0.0](https://www.github.com/cheminfo/cheminfo-types/compare/v0.11.1...v1.0.0) (2022-02-25)
+
+
+### Features
+
+* first stable version ([5153bdc](https://www.github.com/cheminfo/cheminfo-types/commit/5153bdcc2ba428c8ff2364757ae03961f2015d9f))
+
 ### [0.11.1](https://www.github.com/cheminfo/cheminfo-types/compare/v0.11.0...v0.11.1) (2022-02-20)
 
 
