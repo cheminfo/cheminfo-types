@@ -12,6 +12,7 @@
     "cheminfoType.d.ts"
   ],
   "scripts": {
+    "precheck-types": "npm run prepack",
     "check-types": "tsc --noEmit",
     "prepack": "find src -name \"*.ts\" -exec grep -v import {} \\; > cheminfoType.d.ts",
     "eslint": "eslint src --cache",
