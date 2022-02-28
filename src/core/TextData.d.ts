@@ -6,4 +6,4 @@
  * This is very useful in the packages like `jcampconverter` or `xy-parser`
  */
 
-export type TextData = string | ArrayBuffer | Uint8Array;
+export type TextData = string | BinaryData;
