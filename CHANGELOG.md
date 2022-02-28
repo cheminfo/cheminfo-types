@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.1.0](https://www.github.com/cheminfo/cheminfo-types/compare/v1.0.0...v1.1.0) (2022-02-28)
+
+
+### Features
+
+* add BinaryData ([022044c](https://www.github.com/cheminfo/cheminfo-types/commit/022044c618f3d48254a012fe80bf0b59a482137b))
+
 ## [1.0.0](https://www.github.com/cheminfo/cheminfo-types/compare/v0.11.1...v1.0.0) (2022-02-25)
 
 
