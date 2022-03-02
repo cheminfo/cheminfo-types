@@ -2,7 +2,7 @@ export interface Software {
   /** Version of the software instance.
    * @TJS-examples ['v0.0.1', 'rev111']
    */
-  softwareVersion?: string;
+  version?: string;
   /**    The name of the item.
    * @TJS-examples ['tga-analysis', 'ChemDraw']
    */
@@ -12,5 +12,5 @@ export interface Software {
   /**    If the file can be downloaded, URL to download the binary
    * @TJS-examples ['https://github.com/cheminfo/tga-spectrum/releases/tag/v0.16.0']
    */
-  downloadUrl?: string;
+  url?: string;
 }
