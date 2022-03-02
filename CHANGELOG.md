@@ -1,5 +1,12 @@
 # Changelog
 
+### [1.1.1](https://www.github.com/cheminfo/cheminfo-types/compare/v1.1.0...v1.1.1) (2022-03-02)
+
+
+### Bug Fixes
+
+* rename softwareVersion to version and downloadURL to url ([16238e5](https://www.github.com/cheminfo/cheminfo-types/commit/16238e5707c27172fae029a5cf9d4c6d25123ab4))
+
 ## [1.1.0](https://www.github.com/cheminfo/cheminfo-types/compare/v1.0.0...v1.1.0) (2022-02-28)
 
 
