@@ -1,5 +1,17 @@
 # Changelog
 
+## [1.2.0](https://www.github.com/cheminfo/cheminfo-types/compare/v1.1.0...v1.2.0) (2022-07-04)
+
+
+### Features
+
+* add OCLMolecule ([4de8b89](https://www.github.com/cheminfo/cheminfo-types/commit/4de8b893bcf1c929dad0c38232e246df3c0d37ba))
+
+
+### Bug Fixes
+
+* rename softwareVersion to version and downloadURL to url ([16238e5](https://www.github.com/cheminfo/cheminfo-types/commit/16238e5707c27172fae029a5cf9d4c6d25123ab4))
+
 ## [1.1.0](https://www.github.com/cheminfo/cheminfo-types/compare/v1.0.0...v1.1.0) (2022-02-28)
 
 
