@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.4.0](https://www.github.com/cheminfo/cheminfo-types/compare/v1.3.0...v1.4.0) (2022-07-25)
+
+
+### Features
+
+* add title in MeasurementXY ([bc15cb4](https://www.github.com/cheminfo/cheminfo-types/commit/bc15cb45feab0a4be3b86cf9072c570a3b3527a0))
+
 ## [1.3.0](https://www.github.com/cheminfo/cheminfo-types/compare/v1.2.0...v1.3.0) (2022-07-25)
 
 
