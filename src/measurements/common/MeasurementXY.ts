@@ -18,10 +18,6 @@ export interface MeasurementXY<DataType extends DoubleArray = DoubleArray> {
    */
   title?: string;
   /**
-   * Short description about the result of the measurement
-   */
-  description?: string;
-  /**
    * May contain the type of data. This is practical when you have a bunch of data
    * of different types
    */
