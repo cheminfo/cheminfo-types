@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.3.0](https://www.github.com/cheminfo/cheminfo-types/compare/v1.2.0...v1.3.0) (2022-07-25)
+
+
+### Features
+
+* allow id in MeasurementXY ([b96ac8b](https://www.github.com/cheminfo/cheminfo-types/commit/b96ac8bce456c36b3893f8d4f62ac557db888333))
+
 ## [1.2.0](https://www.github.com/cheminfo/cheminfo-types/compare/v1.1.0...v1.2.0) (2022-07-04)
 
 
