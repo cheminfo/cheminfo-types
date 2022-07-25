@@ -14,6 +14,10 @@ export interface MeasurementXY<DataType extends DoubleArray = DoubleArray> {
    */
   variables: MeasurementXYVariables<DataType>;
   /**
+   * Title of the experiment. Often contains the sample code
+   */
+  title?: string;
+  /**
    * Short description about the result of the measurement
    */
   description?: string;
