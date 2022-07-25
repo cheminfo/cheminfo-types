@@ -5,6 +5,10 @@ import { MeasurementXYVariables } from './MeasurementXYVariables';
 
 export interface MeasurementXY<DataType extends DoubleArray = DoubleArray> {
   /**
+   * A unique identifier for the measurement, preferably a UUID.
+   */
+  id?: string;
+  /**
    * Variables containing the data of the measurement.
    * It must contain at least the variable `x` and `y`
    */
