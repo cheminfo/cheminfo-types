@@ -31,11 +31,11 @@
   },
   "homepage": "https://github.com/cheminfo/cheminfo-types#readme",
   "devDependencies": {
-    "eslint": "^8.1.0",
-    "eslint-config-cheminfo-typescript": "^10.2.2",
+    "eslint": "^8.24.0",
+    "eslint-config-cheminfo-typescript": "^11.1.0",
     "js-yaml": "^4.1.0",
-    "prettier": "^2.4.1",
-    "typescript": "^4.4.4",
-    "typescript-json-schema": "^0.51.0"
+    "prettier": "^2.7.1",
+    "typescript": "^4.8.4",
+    "typescript-json-schema": "^0.54.0"
   }
 }
