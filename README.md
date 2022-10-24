@@ -15,7 +15,11 @@ __Key principles:__
 
 `$ npm i cheminfo-types`
 
-## Example
+## Usage
+
+<details>
+
+<summary>See example</summary>
 
 ```
 import type { MeasurementXY } from 'cheminfo-types';
@@ -38,8 +42,10 @@ const firstMeasurement: MeasurementXY = {
   variables: { x: xAxis, y: yAxis },
 };
 measurements.push(firstMeasurement);
-
 ```
+
+</details>
+
 ## License
 
 [MIT](./LICENSE)
