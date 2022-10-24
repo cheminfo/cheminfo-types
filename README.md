@@ -15,9 +15,31 @@ __Key principles:__
 
 `$ npm i cheminfo-types`
 
-## Usage
+## Example
 
+```
+import type { MeasurementXY } from 'cheminfo-types';
 
+const measurements: MeasurementXY[] = [];
+const xAxis = {
+  label: 'time',
+  units: 's',
+  isDependent: false,
+  data: [1, 2, 3],
+};
+const yAxis = {
+  label: 'current',
+  units: 'mA',
+  isDependent: true,
+  data: [0.1, 8, 13],
+};
+const firstMeasurement: MeasurementXY = {
+  title: 'Current Monitoring',
+  variables: { x: xAxis, y: yAxis },
+};
+measurements.push(firstMeasurement);
+
+```
 ## License
 
 [MIT](./LICENSE)
