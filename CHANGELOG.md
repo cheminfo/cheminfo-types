@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.5.0](https://www.github.com/cheminfo/cheminfo-types/compare/v1.4.0...v1.5.0) (2022-10-25)
+
+
+### Features
+
+* remove description from MeasurementXY ([a8f677c](https://www.github.com/cheminfo/cheminfo-types/commit/a8f677c03fd91061e5c139d0b784cfcb730011e0))
+
 ## [1.4.0](https://www.github.com/cheminfo/cheminfo-types/compare/v1.3.0...v1.4.0) (2022-07-25)
 
 
