@@ -1,4 +1,4 @@
-import { Value } from '../core/Value.d';
+import { Value } from '../core/ValueUnits';
 
 export interface ICPDilution {
   factor?: number;
