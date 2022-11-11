@@ -1,5 +1,21 @@
 # Changelog
 
+## [2.0.0](https://www.github.com/cheminfo/cheminfo-types/compare/v1.4.0...v2.0.0) (2022-11-11)
+
+
+### ⚠ BREAKING CHANGES
+
+* rrename Value to ValueUnits
+
+### Features
+
+* remove description from MeasurementXY ([a8f677c](https://www.github.com/cheminfo/cheminfo-types/commit/a8f677c03fd91061e5c139d0b784cfcb730011e0))
+
+
+### Miscellaneous Chores
+
+* rrename Value to ValueUnits ([946936b](https://www.github.com/cheminfo/cheminfo-types/commit/946936b3dd5d4af1e1a4298c9cc9bf317b470a45))
+
 ## [1.4.0](https://www.github.com/cheminfo/cheminfo-types/compare/v1.3.0...v1.4.0) (2022-07-25)
 
 
