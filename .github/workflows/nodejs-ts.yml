@@ -11,6 +11,6 @@ jobs:
     # Documentation: https://github.com/zakodium/workflows#nodejs-ci
     uses: zakodium/workflows/.github/workflows/nodejs.yml@nodejs-v1
     with:
-      npm-setup-command: 'npm i; npm run prepack'
+      npm-setup-command: 'npm i && npm run prepack'
       lint-check-types: true
       disable-tests: true
