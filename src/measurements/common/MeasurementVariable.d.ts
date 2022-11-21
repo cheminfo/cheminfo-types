@@ -31,6 +31,11 @@ export interface MeasurementVariable<
   min?: number;
   /** If defined contain the maximal value of the data */
   max?: number;
-  /** If defined indicates (true or false) if the data series is monotone  */
-  isMonotone?: boolean;
+  /**
+   * If defined indicates if the data series is monotonic.
+   * `1` means that the data is increasing.
+   * `-1` means that the data is decreasing.
+   * `0` means that the data is not monotonic.
+   */
+  isMonotonic?: -1 | 0 | 1;
 }
