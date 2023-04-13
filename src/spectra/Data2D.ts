@@ -8,7 +8,7 @@ export interface MinMaxContent {
   maxX: number;
 }
 
-export type Data2D =  Data2DFid | Data2DFt;
+export type Data2D = Data2DFid | Data2DFt;
 
 export interface Data2DFid {
   re: MinMaxContent;
