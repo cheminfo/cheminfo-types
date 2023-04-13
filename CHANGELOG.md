@@ -1,5 +1,19 @@
 # Changelog
 
+## [1.5.0](https://github.com/cheminfo/cheminfo-types/compare/v1.4.0...v1.5.0) (2023-04-13)
+
+
+### Features
+
+* add nmr Data2D types ([#91](https://github.com/cheminfo/cheminfo-types/issues/91)) ([9f3adbe](https://github.com/cheminfo/cheminfo-types/commit/9f3adbe3a41dd89eccae28f1d429bb4748e3c78c))
+* change `isMonotone` to `isMonotonic` ([9cdd134](https://github.com/cheminfo/cheminfo-types/commit/9cdd1340ae9f72793a6b82c480f1615347b592ae))
+* remove description from MeasurementXY ([a8f677c](https://github.com/cheminfo/cheminfo-types/commit/a8f677c03fd91061e5c139d0b784cfcb730011e0))
+
+
+### Documentation
+
+* trying to get docs to run. ([#84](https://github.com/cheminfo/cheminfo-types/issues/84)) ([04e751e](https://github.com/cheminfo/cheminfo-types/commit/04e751e1dd146e6f94af8554c0c081b3ad05a809))
+
 ## [1.4.0](https://www.github.com/cheminfo/cheminfo-types/compare/v1.3.0...v1.4.0) (2022-07-25)
 
 
