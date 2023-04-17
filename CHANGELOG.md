@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.6.0](https://github.com/cheminfo/cheminfo-types/compare/v1.5.0...v1.6.0) (2023-04-17)
+
+
+### Features
+
+* add NumberMatrix ([1f85941](https://github.com/cheminfo/cheminfo-types/commit/1f8594191ccf1a8043e71303a94b98e1d8329b58))
+
 ## [1.5.0](https://github.com/cheminfo/cheminfo-types/compare/v1.4.0...v1.5.0) (2023-04-13)
 
 
