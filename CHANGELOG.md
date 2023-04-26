@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.7.0](https://github.com/cheminfo/cheminfo-types/compare/v1.6.0...v1.7.0) (2023-04-26)
+
+
+### Features
+
+* add Logger interface ([7e42f13](https://github.com/cheminfo/cheminfo-types/commit/7e42f13944e9e15ae087c09f3f773d241230bfab))
+
 ## [1.6.0](https://github.com/cheminfo/cheminfo-types/compare/v1.5.0...v1.6.0) (2023-04-17)
 
 
