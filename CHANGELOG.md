@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.7.1](https://github.com/cheminfo/cheminfo-types/compare/v1.7.0...v1.7.1) (2023-04-28)
+
+
+### Bug Fixes
+
+* don't use console when package is imported ([a007d4b](https://github.com/cheminfo/cheminfo-types/commit/a007d4bca069dc6cdee54fde0b35be0a849ea453))
+
 ## [1.7.0](https://github.com/cheminfo/cheminfo-types/compare/v1.6.0...v1.7.0) (2023-04-26)
 
 
