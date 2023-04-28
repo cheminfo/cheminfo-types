@@ -6,8 +6,8 @@ on:
     types: [published]
 
 env:
-  NODE_VERSION: 16.x
-  ENTRY_FILE: 'cheminfoType.d.ts'
+  NODE_VERSION: 18.x
+  ENTRY_FILE: 'cheminfoTypes.d.ts'
 
 jobs:
   deploy:

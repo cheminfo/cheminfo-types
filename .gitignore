@@ -121,5 +121,6 @@ lib
 lib-esm
 
 cheminfoType.d.ts
+cheminfoTypes.d.ts
 
 docs
