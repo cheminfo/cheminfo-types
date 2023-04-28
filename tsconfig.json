@@ -6,5 +6,5 @@
     "strict": true,
     "target": "es2020"
   },
-  "include": ["./cheminfoTypes.d.ts", "./src"]
+  "include": ["./src", "./cheminfoTypes.d.ts", "cheminfoTypes.test-d.ts"]
 }
