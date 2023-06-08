@@ -1,6 +1,6 @@
 {
   "name": "cheminfo-types",
-  "version": "1.7.1",
+  "version": "1.7.2",
   "description": "Types for cheminfo packages and cheminfo data schema ",
   "main": "./index.js",
   "types": "./cheminfoTypes.d.ts",
