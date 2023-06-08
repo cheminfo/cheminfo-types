@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.7.2](https://github.com/cheminfo/cheminfo-types/compare/v1.7.1...v1.7.2) (2023-06-08)
+
+
+### Bug Fixes
+
+* refactor Data2D structure ([#96](https://github.com/cheminfo/cheminfo-types/issues/96)) ([930d0e0](https://github.com/cheminfo/cheminfo-types/commit/930d0e04d10b720ac8154efb8e01d0b3ca419460))
+
 ## [1.7.1](https://github.com/cheminfo/cheminfo-types/compare/v1.7.0...v1.7.1) (2023-04-28)
 
 
