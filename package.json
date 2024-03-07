@@ -12,15 +12,16 @@
     "cheminfoTypes.d.ts"
   ],
   "scripts": {
-    "precheck-types": "npm run prepack",
+    "build": "find src -name \"*.ts\" -exec grep -v import {} \\; > cheminfoTypes.d.ts",
+    "precheck-types": "npm run build",
     "check-types": "tsc --noEmit",
-    "prepack": "find src -name \"*.ts\" -exec grep -v import {} \\; > cheminfoTypes.d.ts",
     "eslint": "eslint src --cache",
     "eslint-fix": "npm run eslint -- --fix",
+    "prepack": "npm run build",
     "prettier": "prettier --check src",
     "prettier-write": "prettier --write src",
     "test": "npm run test-only && npm run eslint && npm run check-types",
-    "pretest-only": "npm run prepack",
+    "pretest-only": "npm run build",
     "test-only": "tsd",
     "generate-json": "ts-node json/buildJSON.ts"
   },
@@ -33,13 +34,13 @@
   },
   "homepage": "https://github.com/cheminfo/cheminfo-types#readme",
   "devDependencies": {
-    "eslint": "^8.39.0",
-    "eslint-config-cheminfo-typescript": "^11.3.1",
+    "eslint": "^8.57.0",
+    "eslint-config-cheminfo-typescript": "^12.2.0",
     "js-yaml": "^4.1.0",
-    "pino": "^8.11.0",
-    "prettier": "^2.8.8",
-    "tsd": "^0.28.1",
-    "typescript": "^5.0.4",
-    "typescript-json-schema": "^0.56.0"
+    "pino": "^8.19.0",
+    "prettier": "^3.2.5",
+    "tsd": "^0.30.7",
+    "typescript": "^5.4.2",
+    "typescript-json-schema": "^0.63.0"
   }
 }
