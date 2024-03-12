@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.7.3](https://github.com/cheminfo/cheminfo-types/compare/v1.7.2...v1.7.3) (2024-03-12)
+
+
+### Bug Fixes
+
+* allow all NumberArray in DataXY ([#99](https://github.com/cheminfo/cheminfo-types/issues/99)) ([49557ee](https://github.com/cheminfo/cheminfo-types/commit/49557ee1b7dc64eef0ac2f0ebd8a0266e4a3757e))
+
 ## [1.7.2](https://github.com/cheminfo/cheminfo-types/compare/v1.7.1...v1.7.2) (2023-06-08)
 
 
