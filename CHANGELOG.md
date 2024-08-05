@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.8.0](https://github.com/cheminfo/cheminfo-types/compare/v1.7.3...v1.8.0) (2024-08-05)
+
+
+### Features
+
+* add types for LightLogger compatible with console ([#101](https://github.com/cheminfo/cheminfo-types/issues/101)) ([fad1b27](https://github.com/cheminfo/cheminfo-types/commit/fad1b278144f2ab70e3b1c21a67d08e1e8c9def4))
+
 ## [1.7.3](https://github.com/cheminfo/cheminfo-types/compare/v1.7.2...v1.7.3) (2024-03-12)
 
 
