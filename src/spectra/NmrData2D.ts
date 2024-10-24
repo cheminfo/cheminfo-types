@@ -10,6 +10,11 @@ export interface NmrData2DContent {
 
 export type NmrData2D = NmrData2DFid | NmrData2DFt;
 
+export interface NmrData2DFidReIm {
+  re: NmrData2DContent;
+  im: NmrData2DContent;
+}
+
 export interface NmrData2DFid {
   re: NmrData2DContent;
   im?: NmrData2DContent;
