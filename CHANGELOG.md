@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.8.1](https://github.com/cheminfo/cheminfo-types/compare/v1.8.0...v1.8.1) (2024-10-24)
+
+
+### Bug Fixes
+
+* add nmrData2DFidReIm type ([#103](https://github.com/cheminfo/cheminfo-types/issues/103)) ([9293c90](https://github.com/cheminfo/cheminfo-types/commit/9293c90deeb6978143d7fc241d85afab44ce27c3))
+
 ## [1.8.0](https://github.com/cheminfo/cheminfo-types/compare/v1.7.3...v1.8.0) (2024-08-05)
 
 
