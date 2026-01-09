@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.10.0](https://github.com/cheminfo/cheminfo-types/compare/v1.9.0...v1.10.0) (2026-01-09)
+
+
+### Features
+
+* add DoubleMatrix ([0205546](https://github.com/cheminfo/cheminfo-types/commit/020554669ba9ff8c405dd98645d177d449e0d082))
+
 ## [1.9.0](https://github.com/cheminfo/cheminfo-types/compare/v1.8.1...v1.9.0) (2026-01-09)
 
 
