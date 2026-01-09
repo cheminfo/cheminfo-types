@@ -34,13 +34,13 @@
   },
   "homepage": "https://github.com/cheminfo/cheminfo-types#readme",
   "devDependencies": {
-    "eslint": "^8.57.0",
-    "eslint-config-cheminfo-typescript": "^12.2.0",
-    "js-yaml": "^4.1.0",
-    "pino": "^8.19.0",
-    "prettier": "^3.2.5",
-    "tsd": "^0.30.7",
-    "typescript": "^5.4.2",
-    "typescript-json-schema": "^0.63.0"
+    "eslint": "^9.39.2",
+    "eslint-config-cheminfo-typescript": "^21.0.1",
+    "js-yaml": "^4.1.1",
+    "pino": "^10.1.0",
+    "prettier": "^3.7.4",
+    "tsd": "^0.33.0",
+    "typescript": "^5.9.3",
+    "typescript-json-schema": "^0.67.1"
   }
 }

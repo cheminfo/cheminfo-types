@@ -1,4 +1,4 @@
-import { NumberArray } from './NumberArray';
+import type { NumberArray } from './NumberArray';
 
 export interface DataXReIm<ArrayType extends NumberArray = NumberArray> {
   /** Array of x values */

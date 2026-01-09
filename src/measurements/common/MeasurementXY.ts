@@ -1,7 +1,7 @@
-import { DoubleArray } from '../../core/DoubleArray';
-import { Instrument } from '../../core/Instrument.d';
+import type { DoubleArray } from '../../core/DoubleArray';
+import type { Instrument } from '../../core/Instrument.d';
 
-import { MeasurementXYVariables } from './MeasurementXYVariables';
+import type { MeasurementXYVariables } from './MeasurementXYVariables';
 
 export interface MeasurementXY<DataType extends DoubleArray = DoubleArray> {
   /**

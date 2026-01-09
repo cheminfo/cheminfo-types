@@ -1,6 +1,6 @@
-import { DoubleArray } from '../../core/DoubleArray';
+import type { DoubleArray } from '../../core/DoubleArray';
 
-import { MeasurementVariable } from './MeasurementVariable';
+import type { MeasurementVariable } from './MeasurementVariable';
 
 export interface MeasurementXYVariables<
   DataType extends DoubleArray = DoubleArray,

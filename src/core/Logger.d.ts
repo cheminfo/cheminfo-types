@@ -1,4 +1,4 @@
-import { LightLogger } from './LightLogger';
+import type { LightLogger } from './LightLogger';
 
 /**
  * Many libraries use a logger interface to log information about the processing.

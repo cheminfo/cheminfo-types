@@ -1,5 +1,5 @@
-import { DoubleArray } from '../../core/DoubleArray';
-import { OneLetter } from '../../core/OneLetter';
+import type { DoubleArray } from '../../core/DoubleArray';
+import type { OneLetter } from '../../core/OneLetter';
 
 /**
  * Describe a variable that can only contains as data an array of number

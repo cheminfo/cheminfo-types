@@ -1,5 +1,5 @@
-import { NumberArray } from './NumberArray';
-import { NumberMatrix } from './NumberMatrix';
+import type { NumberArray } from './NumberArray';
+import type { NumberMatrix } from './NumberMatrix';
 
 export interface DataXMatrix {
   x: NumberArray;

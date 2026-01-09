@@ -1,3 +1,5 @@
+import type { BinaryData } from './BinaryData';
+
 /**
  * When importing text files containing experimental data depending the
  * case we may have a text, ArrayBuffer or Uint8Array
@@ -5,5 +7,4 @@
  * is actually a string.
  * This is very useful in the packages like `jcampconverter` or `xy-parser`
  */
-
 export type TextData = string | BinaryData;

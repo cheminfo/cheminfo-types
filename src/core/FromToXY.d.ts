@@ -1,4 +1,4 @@
-import { PointXY } from './PointXY';
+import type { PointXY } from './PointXY';
 /**
  * Defines 2 limits as numbers
  */
