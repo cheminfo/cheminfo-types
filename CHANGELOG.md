@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.9.0](https://github.com/cheminfo/cheminfo-types/compare/v1.8.1...v1.9.0) (2026-01-09)
+
+
+### Features
+
+* add DataXMatrix and DataXReIm ([7efa916](https://github.com/cheminfo/cheminfo-types/commit/7efa916a7cccec3c2dad88d383342606025a9fe2))
+
 ## [1.8.1](https://github.com/cheminfo/cheminfo-types/compare/v1.8.0...v1.8.1) (2024-10-24)
 
 
