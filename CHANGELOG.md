@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.11.0](https://github.com/cheminfo/cheminfo-types/compare/v1.10.0...v1.11.0) (2026-03-26)
+
+
+### Features
+
+* add TGAZone interface ([f98b7f7](https://github.com/cheminfo/cheminfo-types/commit/f98b7f7ac6f9360d4c6e368d9ac39b4c12e8b31b))
+
 ## [1.10.0](https://github.com/cheminfo/cheminfo-types/compare/v1.9.0...v1.10.0) (2026-01-09)
 
 
