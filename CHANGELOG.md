@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.12.0](https://github.com/cheminfo/cheminfo-types/compare/v1.11.0...v1.12.0) (2026-03-27)
+
+
+### Features
+
+* split TGA types into separate files and add TGAHolder/TGAMeta ([98de6f3](https://github.com/cheminfo/cheminfo-types/commit/98de6f3eccf0238b1da879d818632a66bf981280))
+
 ## [1.11.0](https://github.com/cheminfo/cheminfo-types/compare/v1.10.0...v1.11.0) (2026-03-26)
 
 
