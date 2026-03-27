@@ -1,5 +1,16 @@
 # Changelog
 
+## [2.0.0](https://github.com/cheminfo/cheminfo-types/compare/v1.11.0...v2.0.0) (2026-03-27)
+
+
+### ⚠ BREAKING CHANGES
+
+* TGAZone import path changed from src/analysis/TGAZone to src/analysis/tga/TGAZone
+
+### Features
+
+* split TGA types into separate files and add TGAHolder/TGAMeta ([ecf7535](https://github.com/cheminfo/cheminfo-types/commit/ecf7535bfca7fd865dbda337473dead0146e21fb))
+
 ## [1.11.0](https://github.com/cheminfo/cheminfo-types/compare/v1.10.0...v1.11.0) (2026-03-26)
 
 
