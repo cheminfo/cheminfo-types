@@ -1,4 +1,4 @@
-import type { Value } from '../core/Value.d';
+import type { Value } from '../../core/Value.d';
 
 /**
  * A zone representing a mass-loss step in a TGA experiment.
