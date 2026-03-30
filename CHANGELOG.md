@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.13.0](https://github.com/cheminfo/cheminfo-types/compare/v1.12.0...v1.13.0) (2026-03-30)
+
+
+### Features
+
+* add DLS (Dynamic Light Scattering) types ([e8a5214](https://github.com/cheminfo/cheminfo-types/commit/e8a5214b6f1810df1c4154ef91fcf32ee7890936))
+
 ## [1.12.0](https://github.com/cheminfo/cheminfo-types/compare/v1.11.0...v1.12.0) (2026-03-27)
 
 
