@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.14.0](https://github.com/cheminfo/cheminfo-types/compare/v1.13.0...v1.14.0) (2026-03-30)
+
+
+### Features
+
+* add intensity, volume, and number mean fields to DLSMeta ([fdd7301](https://github.com/cheminfo/cheminfo-types/commit/fdd73012729331b0f4da6840bb8fa29df5890842))
+
 ## [1.13.0](https://github.com/cheminfo/cheminfo-types/compare/v1.12.0...v1.13.0) (2026-03-30)
 
 
