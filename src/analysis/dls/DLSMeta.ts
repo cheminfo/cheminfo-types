@@ -23,6 +23,12 @@ export interface DLSMeta {
   firstCumulant?: number;
   /** Second cumulant (variance of decay rate). */
   secondCumulant?: number;
+  /** Overall intensity-weighted mean hydrodynamic diameter. */
+  intensityMean?: Value;
+  /** Overall volume-weighted mean hydrodynamic diameter. */
+  volumeMean?: Value;
+  /** Overall number-weighted mean hydrodynamic diameter. */
+  numberMean?: Value;
   /** Detected particle populations, each with properties across all distribution types. */
   distributions?: DLSDistribution[];
 }
