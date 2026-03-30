@@ -1,6 +1,7 @@
 import type { Value } from '../../core/Value.d';
 
 import type { DLSDistribution } from './DLSDistribution';
+import type { DLSSizeDistribution } from './DLSSizeDistribution';
 
 /**
  * Standardized DLS (Dynamic Light Scattering) metadata.
@@ -23,12 +24,8 @@ export interface DLSMeta {
   firstCumulant?: number;
   /** Second cumulant (variance of decay rate). */
   secondCumulant?: number;
-  /** Overall intensity-weighted mean hydrodynamic diameter. */
-  intensityMean?: Value;
-  /** Overall volume-weighted mean hydrodynamic diameter. */
-  volumeMean?: Value;
-  /** Overall number-weighted mean hydrodynamic diameter. */
-  numberMean?: Value;
+  /** Overall average properties across all detected particle populations. */
+  average?: DLSSizeDistribution;
   /** Detected particle populations, each with properties across all distribution types. */
   distributions?: DLSDistribution[];
 }
