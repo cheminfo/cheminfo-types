@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.15.0](https://github.com/cheminfo/cheminfo-types/compare/v1.14.0...v1.15.0) (2026-04-02)
+
+
+### Features
+
+* add Zeta Potential (ELS) types ([4ac9b59](https://github.com/cheminfo/cheminfo-types/commit/4ac9b59791dbeccabf96e360a79b6c9f27545b67))
+
 ## [1.14.0](https://github.com/cheminfo/cheminfo-types/compare/v1.13.0...v1.14.0) (2026-03-30)
 
 
