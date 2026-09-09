@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.16.0](https://github.com/cheminfo/cheminfo-types/compare/v1.15.0...v1.16.0) (2026-09-09)
+
+
+### Features
+
+* add DataXYs ([270350b](https://github.com/cheminfo/cheminfo-types/commit/270350bfc527bbd050d67ccc5d2878712d1e1e8f))
+
 ## [1.15.0](https://github.com/cheminfo/cheminfo-types/compare/v1.14.0...v1.15.0) (2026-04-02)
 
 
